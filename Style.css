@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Eurostile";
+    src: url("Font/Eurostile\ Extended\ #2.ttf");
+}
+
 
 body{
     margin: 0;
@@ -8,43 +13,16 @@ body{
     background: no-repeat center fixed;
     -webkit-background-size: cover;
     background-size: cover;
-    background-color: black;
-    font: 0.8em "Eurostile";
+    background-color: gray;
+    font: 1em "Eurostile";
+    color: white;
     letter-spacing: 0.2em; 
-    
-}
-#homepage{
     animation:fondu 20s ease-in-out infinite both;
 }
-#jevis{
-    animation:jevisfondu 20s ease-in-out infinite both;  
-}
-#arthur{
-    animation:arthurfondu 20s ease-in-out infinite both;
-}
-#pastel{
-    animation:pastelfondu 20s ease-in-out infinite both;
-}
-#djMadgic{
-    animation:DJmadgicfondu 20s ease-in-out infinite both;
-}
-#clipMusicaux{
-    animation:ClipMusicfondu 20s ease-in-out infinite both;
-}
-#decapulse{
-    animation:decapulsefondu 20s ease-in-out infinite both;
-}
 
 
-@font-face{
-    font-family: "Eurostile";
-    src: url("Eurostile\ Extended\ #2.ttf");
-}
 
-@font-face{
-    font-family: "Eurostile_bold";
-    src: url("Eurostile\ MN\ Extended\ Bold.ttf");
-}
+
 #header_S{
     z-index: 5;
     position: absolute;
@@ -52,7 +30,7 @@ body{
     left:20px;
 }
 
-#logo_home {
+#logoC {
     width: 140px;
     padding: 5px;
     transition: 0.7s;
@@ -106,10 +84,6 @@ a {
 
 }
 
-p{
-    padding: 2px 10px;
-    line-height: 1.5em;
-}
 .menu_li{
     background-color: rgba(19, 19, 19, 0.8);
     padding: 6px 5px 5PX 5PX;
@@ -185,46 +159,6 @@ li:hover .a2{
     100%{background-image: url(background/arthur\ site.jpg);}
 }
 
-@keyframes jevisfondu{
-    0%{background-image: url(Fond\ page\ Wendy/photoupscalé2.jpg);}
-    33.33%{background-image: url(Fond\ page\ Wendy/Wendy8mm.jpg);}
-    66.66%{background-image: url(Fond\ page\ Wendy/Wendy.jpg);}
-    100%{background-image: url(Fond\ page\ Wendy/photoupscalé2.jpg);}
-}
-@keyframes arthurfondu{
-    0%{background-image: url(Tommy\ Arthur/guitar.jpg);}
-    33.33%{background-image: url(Tommy\ Arthur/statue.jpg);}
-    66.66%{background-image: url(Tommy\ Arthur/Tommy.jpg);}
-    100%{background-image: url(Tommy\ Arthur/guitar.jpg);}
-}
-@keyframes pastelfondu{
-    0%{background-image: url(Pastel\ creatif/teampastel.jpg);}
-    33.33%{background-image: url(Pastel\ creatif/pastel_table_1.jpg);}
-    66.66%{background-image: url(Pastel\ creatif/pastel2k.jpg);}
-    100%{background-image: url(Pastel\ creatif/teampastel.jpg);}
-}
-
-@keyframes DJmadgicfondu{
-    0%{background-image: url(DJ\ Madgic/DJMadgic.jpg);}
-    33.33%{background-image: url(DJ\ Madgic/scratch.jpg);}
-    66.66%{background-image: url(DJ\ Madgic/Final.jpg);}
-    100%{background-image: url(DJ\ Madgic/DJMadgic.jpg);}
-}
-@keyframes ClipMusicfondu{
-    0%{background-image: url(FondPageClipvideo/Wendy.jpg);}
-    33.33%{background-image: url(FondPageClipvideo/DJMadgic.jpg);}
-    66.66%{background-image: url(FondPageClipvideo/Tommy.jpg);}
-    100%{background-image: url(FondPageClipvideo/Wendy.jpg);}
-}
-@keyframes decapulsefondu{
-    0%{background-image: url(Decapulse/Fond1.jpg);}
-    25%{background-image: url(Decapulse/Fond1.jpg);}
-    33.33%{background-image: url(Decapulse/Fond2.jpg);}
-    58.33%{background-image: url(Decapulse/Fond2.jpg);}
-    66.66%{background-image: url(Decapulse/Fond3.jpg);}
-    92.33%{background-image: url(Decapulse/Fond3.jpg);}
-    100%{background-image: url(Decapulse/Fond1.jpg);}
-}
 
 .conteneur{
     position:absolute;
@@ -404,121 +338,100 @@ section:hover .videoTitre{
 }
 
 
-.footeur{
-    z-index: 4;
+footer{
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 30px;
-    width: 70%;dth
-    min-width: 500px;
-    bottom: 0%;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
     background-color: rgba(19, 19, 19, 0.8);
     transition: 0.7s 0.5s;
     display: flex;
     justify-content: center;
-    
-}
-.footeur:hover{
-    height: 200px;
-    
-}
-#click_footeur{
-    position: absolute;
-    left: 50%;
-    transform:translateX(-50%);
-    text-align: center;
-    font: 1.5em sans-serif;
-    color:rgba(183, 185, 185, 0.8);
-    margin: 2px;
 }
 
-
-
-#confiance{
-    
-    position: relative;
-    top: 5px;
-    text-align: center;
-    font: 1.2em "Eurostile";
-    color:rgb(225, 243, 248);
-    margin: 2px;
-    transition: 0.7s;
-}
-#confiance:hover{
-    color: rgba(183, 185, 185, 0.8);
-    transform: scale(1.1);
-}
-#conteneur_Footeur{
-    position: fixed;
-    width: 100%;
-    height: 100px;
-    overflow: scroll;
-    display: flex;
-    justify-content: space-around;
-}
-.element_footeur{
-    position: relative;
-    top: 30px;
-    margin: 3px;
-    padding: 5px;
-    width:90px;
-    height:40px;
+.clientIcon{
+    width: 160px;
+    height:90px;
     background-color:white;
-    text-align:center;
-    color: white;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
     
-      
 }
 
 #footeur_1{
     background-image: url(clients/Casino.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
 }
 
 #footeur_2{
     
     background-image: url(clients/XTV.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
+
 }
 
 #footeur_3{
     
     background-image: url(clients/carouf.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
 }
 
 #footeur_4{
     background-image: url(clients/decathlon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
     
 }
 #footeur_5{
     background-image: url(clients/elow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
 }
 
 #footeur_6{
     
     background-image: url(clients/etincelle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
 }
 
 #footeur_7{
     
     background-image: url(clients/id\ art\ large.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
 }
 
 #footeur_8{
     background-image: url(clients/pastel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
     
 }
 
 #footeur_9{
     background-image: url(clients/pbo\ site.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
 }
 
 
 #footeur_10{
     
     background-image: url(clients/xs.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    scale: (0.6);
 }
 
