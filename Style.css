@@ -14,20 +14,17 @@ body{
     -webkit-background-size: cover;
     background-size: cover;
     background-color: gray;
-    font: 1em "Eurostile";
     color: white;
     letter-spacing: 0.2em; 
     animation:fondu 20s ease-in-out infinite both;
 }
 
 
-
-
-#header_S{
-    z-index: 5;
-    position: absolute;
-    top: 32%;
-    left:20px;
+header{
+    margin: 10px;
+    font: 3em sans-serif;
+    text-align: right;
+    opacity: 70%;
 }
 
 #logoC {
@@ -90,7 +87,7 @@ a {
     margin: 4px 0px ;
 }
 
-li:hover .a2{
+li:hover .a{
     color:rgba(183, 185, 185, 0.8);
     transform: scale(1.1);
     
