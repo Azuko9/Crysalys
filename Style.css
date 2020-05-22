@@ -21,10 +21,19 @@ body{
 
 
 header{
+    position: fixed;
     margin: 10px;
-    font: 3em sans-serif;
+    width: 99%;
     text-align: right;
     opacity: 70%;
+    font: 2em sans-serif;
+    
+}
+main{
+    height: 100vh;
+    background: no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #logoC {
@@ -45,7 +54,9 @@ header{
 
 
 .menu {
-    position: relative;
+    position: fixed;
+    top: 25%;
+    left: 1em;
     margin: 0;
     padding: 0px;
     text-align: center;
@@ -158,6 +169,7 @@ li:hover .a{
 
 
 .conteneur{
+    display: none;
     position:absolute;
     width: 325px;
     background-color: rgba(19, 19, 19, 0.8);
@@ -336,99 +348,11 @@ section:hover .videoTitre{
 
 
 footer{
-    position: fixed;
-    flex-direction: column;
     text-align: center;
     width: 100%;
     bottom: 0;
     background-color: rgba(19, 19, 19, 0.8);
-    transition: 0.7s 0.5s;
-    display: flex;
-    justify-content: center;
-}
-
-.clientIcon{
-    width: 160px;
-    height:90px;
-    background-color:white;
-    
-}
-
-#footeur_1{
-    background-image: url(clients/Casino.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
-}
-
-#footeur_2{
-    
-    background-image: url(clients/XTV.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
-
-}
-
-#footeur_3{
-    
-    background-image: url(clients/carouf.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
-}
-
-#footeur_4{
-    background-image: url(clients/decathlon.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
-    
-}
-#footeur_5{
-    background-image: url(clients/elow.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
-}
-
-#footeur_6{
-    
-    background-image: url(clients/etincelle.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
-}
-
-#footeur_7{
-    
-    background-image: url(clients/id\ art\ large.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
-}
-
-#footeur_8{
-    background-image: url(clients/pastel.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
-    
-}
-
-#footeur_9{
-    background-image: url(clients/pbo\ site.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
 }
 
 
-#footeur_10{
-    
-    background-image: url(clients/xs.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    scale: (0.6);
-}
 
