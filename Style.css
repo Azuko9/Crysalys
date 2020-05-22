@@ -162,13 +162,13 @@ li:hover .a{
 
 
 @keyframes fondu{
-    0%{background: url(background/StarWars-Fond1.jpg);}
-    25%{background: url(background/StarWars-Fond1.jpg);}
-    33.33%{background-image: url(background/StarWars-Fond2.jpg);}
-    58.33%{background-image: url(background/StarWars-Fond2.jpg);}
-    66.66%{background-image: url(background/StarWars-Fond3.jpg);}
-    92.33%{background-image: url(background/StarWars-Fond3.jpg);}
-    100%{background-image: url(background/StarWars-Fond1.jpg);}
+    0%{background: url(background/arthur\ site.jpg);}
+    25%{background: url(background/arthur\ site.jpg);}
+    33.33%{background-image: url(background/pastel\ 2k.jpg);}
+    58.33%{background-image: url(background/pastel\ 2k.jpg);}
+    66.66%{background-image: url(background/rumble\ 2K.jpg);}
+    92.33%{background-image: url(background/rumble\ 2K.jpg);}
+    100%{background-image: url(background/arthur\ site.jpg);}
 }
 
 
