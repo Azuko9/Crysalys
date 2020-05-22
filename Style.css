@@ -159,11 +159,8 @@ li:hover .a{
 
 @keyframes fondu{
     0%{background-image: url(background/tesdt-fond-V2.jpg);}
-    25%{background-image: url(background/tesdt-fond-V2.jpg);}
     33.33%{background-image: url(background/tesdt-fond-V2-3.jpg);}
-    58.33%{background-image: url(background/tesdt-fond-V2-3.jpg);}
     66.66%{background-image: url(background/tesdt-fond-V2-2.jpg);}
-    92.33%{background-image: url(background/tesdt-fond-V2-2.jpg);}
     100%{background-image: url(background/tesdt-fond-V2.jpg);}
 }
 
