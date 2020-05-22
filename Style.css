@@ -7,17 +7,23 @@
 body{
     margin: 0;
     padding: 0;
-    width: auto;
+    width: 100vw;
     min-width: 910px;
-    height: auto;
-    background: no-repeat center fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-color: gray;
+    height: 100vw;
     color: white;
     letter-spacing: 0.2em; 
-    animation:fondu 20s ease-in-out infinite both;
 }
+#video_background{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    }
 
 
 header{
@@ -111,8 +117,6 @@ li:hover .a{
     font: 1em "Eurostile";
     text-decoration:white;
     transition: all 0.5s;
-    
-    
 }
 
 .menu > li li:hover a{
@@ -158,13 +162,13 @@ li:hover .a{
 
 
 @keyframes fondu{
-    0%{background-image: url(background/arthur\ site.jpg);}
-    25%{background-image: url(background/arthur\ site.jpg);}
-    33.33%{background-image: url(background/damme\ du\ lac.jpg);}
-    58.33%{background-image: url(background/damme\ du\ lac.jpg);}
-    66.66%{background-image: url(background/landing\ FX.jpg);}
-    92.33%{background-image: url(background/landing\ FX.jpg);}
-    100%{background-image: url(background/arthur\ site.jpg);}
+    0%{background: url(background/StarWars-Fond1.jpg);}
+    25%{background: url(background/StarWars-Fond1.jpg);}
+    33.33%{background-image: url(background/StarWars-Fond2.jpg);}
+    58.33%{background-image: url(background/StarWars-Fond2.jpg);}
+    66.66%{background-image: url(background/StarWars-Fond3.jpg);}
+    92.33%{background-image: url(background/StarWars-Fond3.jpg);}
+    100%{background-image: url(background/StarWars-Fond1.jpg);}
 }
 
 
