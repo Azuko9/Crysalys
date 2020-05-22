@@ -7,12 +7,16 @@
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: auto;
     min-width: 910px;
-    height: 100%;
-    color: white;
-    letter-spacing: 0.2em;
-    animation:fondu 20s ease-in-out infinite both;
+    height: auto;
+    background: no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    font: 0.8em "Eurostile";
+    letter-spacing: 0.2em; 
+    animation:fondu 20s ease-in-out infinite;
 }
 
 
@@ -26,10 +30,10 @@ header{
     font: 2em sans-serif;
     
 }
-main{
-    height: 100vh;
-    
-}
+ main{
+     height: 100vh;
+ }
+
 
 #logoC {
     width: 140px;
@@ -50,6 +54,7 @@ main{
 
 .menu {
     position: fixed;
+    
     top: 25%;
     left: 1em;
     margin: 0;
@@ -151,12 +156,12 @@ li:hover .a{
 
 
 @keyframes fondu{
-    0%{background: url(background/arthur\ site.jpg);}
-    25%{background: url(background/arthur\ site.jpg);}
-    33.33%{background-image: url(background/pastel\ 2k.jpg);}
-    58.33%{background-image: url(background/pastel\ 2k.jpg);}
-    66.66%{background-image: url(background/rumble\ 2K.jpg);}
-    92.33%{background-image: url(background/rumble\ 2K.jpg);}
+    0%{background-image: url(background/arthur\ site.jpg);}
+    25%{background-image: url(background/arthur\ site.jpg);}
+    33.33%{background-image: url(background/damme\ du\ lac.jpg);}
+    58.33%{background-image: url(background/damme\ du\ lac.jpg);}
+    66.66%{background-image: url(background/landing\ FX.jpg);}
+    92.33%{background-image: url(background/landing\ FX.jpg);}
     100%{background-image: url(background/arthur\ site.jpg);}
 }
 
