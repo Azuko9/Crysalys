@@ -169,7 +169,7 @@ li:hover .a{
 
 
 .conteneur{
-    display: none;
+    display:none;
     position:absolute;
     width: 325px;
     background-color: rgba(19, 19, 19, 0.8);
