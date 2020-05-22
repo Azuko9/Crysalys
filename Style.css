@@ -158,10 +158,13 @@ li:hover .a{
 
 
 @keyframes fondu{
-    0%{background-image: url(background/tesdt-fond-V2.jpg);}
-    33.33%{background-image: url(background/tesdt-fond-V2-3.jpg);}
-    66.66%{background-image: url(background/tesdt-fond-V2-2.jpg);}
-    100%{background-image: url(background/tesdt-fond-V2.jpg);}
+    0%{background-image: url(background/arthur\ site.jpg);}
+    25%{background-image: url(background/arthur\ site.jpg);}
+    33.33%{background-image: url(background/damme\ du\ lac.jpg);}
+    58.33%{background-image: url(background/damme\ du\ lac.jpg);}
+    66.66%{background-image: url(background/landing\ FX.jpg);}
+    92.33%{background-image: url(background/landing\ FX.jpg);}
+    100%{background-image: url(background/arthur\ site.jpg);}
 }
 
 
