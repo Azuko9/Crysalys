@@ -3,16 +3,17 @@
     src: url("Font/Eurostile\ Extended\ #2.ttf");
 }
 
-
+body{
+    margin: 0;
+}
 body:before,
 body:after
 {
-
     z-index: -1;
     content:'';
     position:fixed;
-     width:100%;
-     height:100%;
+     width:100vw;
+     height:100vh;
     top:0; left: 0;
     animation: fondu 20s ease-in infinite ;
     background-size:cover;
@@ -26,12 +27,12 @@ body:after
 
 header{
     position: fixed;
-    width: 98%;
+    width: 98vw;
     text-align: right;
     opacity: 70%;
     font: 2em sans-serif;
-    
 }
+
  main{
      height: 100vh;
  }
@@ -39,7 +40,6 @@ header{
 
 #logoC {
     width: 350px;
-    padding: 5px;
     opacity: 0.8;
     transition: 0.7s;
 }
@@ -57,7 +57,7 @@ header{
 
 .menu {
     position: fixed;
-    top: 33%;
+    top: 22%;
     left: 0;
     margin: 0;
     padding: 0px;
@@ -66,6 +66,8 @@ header{
     color: rgba(253, 253, 253, 0.7);
     font: 1em "Eurostile";
 }
+
+
 li {
     list-style: none;
 }
@@ -85,7 +87,7 @@ a {
     display: inline-block;
     color:rgba(255, 255, 255, 0.8);
     text-decoration:white;
-    font: 1em "Eurostile";
+    font: 0.8em "Eurostile";
     transition: all 0.5s;
     
 }
@@ -95,9 +97,17 @@ a {
 }
 
 .menu_li{
-    background-color: rgba(19, 19, 19, 0.7);
-    padding: 10px;
-    margin: 4px 0px ;
+    background-color: rgba(19, 19, 19, 0.2);
+    padding: 4px;
+    margin: 2px 0;
+    cursor: pointer;
+}
+.menu_li:hover{
+    color: white;
+}
+.menu_li2{
+    padding: 3px;
+    margin: 1px 0;
 }
 
 li:hover .a{
@@ -109,7 +119,7 @@ li:hover .a{
 
 .menu > li li a{
     color: grey;
-    font: 1em "Eurostile";
+    font: 0.8em "Eurostile";
     text-decoration:white;
     transition: all 0.5s;
 }
@@ -122,15 +132,18 @@ li:hover .a{
 
 
 .menu ul {
-    display: none;
+    max-height:0px;
 	margin: 0px; padding: 0px;
     overflow: hidden;
     background-color: rgba(183, 185, 185, 0);
     transition: 0.7s max-height 0.3s;
 }
 
+.plus{
+    background-color: rgba(19, 19, 19, 0.6);
+}
 .plus:hover ul{
-    display: contents;
+    max-height: 250px;
 }
 
 .lien_SN{
