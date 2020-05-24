@@ -7,7 +7,7 @@
 body:before,
 body:after
 {
-    margin: 0px;
+
     z-index: -1;
     content:'';
     position:fixed;
@@ -102,7 +102,6 @@ a {
 li:hover .a{
     color:rgba(183, 185, 185, 0.8);
     transform: scale(1.1);
-    
 }
 
 
@@ -130,7 +129,7 @@ li:hover .a{
 }
 
 #plus:hover ul{
-    max-height: 185px;
+    max-height: 250px;
     
 }
 
@@ -265,85 +264,8 @@ aside{
 }
 
 
-section{
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    transition: 0.5s;
-    
-}
-section:hover {
-    transform: scale(1.1);
-}
-section:hover .videoTitre{
-    height: 30%;
-    transition: 0.7s 0.5s;
-}
-.videoTitre{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 0%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(19, 19, 19, 0.8);
-    letter-spacing:normal; 
-}
-#section_1{
-    
-    background-image: url(Fond\ page\ Wendy/imagette.jpg);
-    
-    
-}
-#section_1:hover{
-    background-image: url(Fond\ page\ Wendy/Je-Vis-V3-boucle.gif);
-    transition-delay: 0.5s ;
-}
 
 
-#section_2{
-    
-    background-image: url(Tommy\ Arthur/arthurimagette.jpg);
-}
-#section_2:hover{
-    background-image: url(Arthur-gif-boucle.gif);
-    transition-delay: 0.5s ;
-    
-}
-
-#section_3{
-   
-    background-image: url(Pastel\ creatif/pastelcomimagette.jpg);
-}
-#section_3:hover{
-    background-image: url(Pastel\ creatif/pastel-creatif-boucle.gif);
-    transition-delay: 0.5s ;
-    
-}
-#section_4{
-    
-    background-image: url(tour.jpg);
-    
-}
-#section_5{
-   
-    background-image: url(Decapulse/Decapulse-imagette.jpg);
-}
-#section_5:hover{
-    background-image: url(Decapulse/Decapulse-boucle.gif);
-    transition-delay: 0.5s ;
-    
-}
-
-#section_6{
-   
-    background-image: url(DJ\ Madgic/DJMadgicimagette.jpg);
-}
-#section_6:hover{
-    background-image: url(DJ\ Madgic/DJ-MADGIC-Boucle.gif);
-    transition-delay: 0.5s ;
-    
-}
 
 
 footer{
