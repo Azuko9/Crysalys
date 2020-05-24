@@ -63,7 +63,8 @@ header{
     padding: 0px;
     text-align: center;
     min-width: 390px;
-    
+    color: rgba(253, 253, 253, 0.7);
+    font: 1em "Eurostile";
 }
 li {
     list-style: none;
@@ -94,7 +95,7 @@ a {
 }
 
 .menu_li{
-    background-color: rgba(19, 19, 19, 0.8);
+    background-color: rgba(19, 19, 19, 0.7);
     padding: 10px;
     margin: 2px 0px ;
 }
@@ -121,16 +122,15 @@ li:hover .a{
 
 
 .menu ul {
-	max-height:0px;	
+    display: none;
 	margin: 0px; padding: 0px;
     overflow: hidden;
     background-color: rgba(183, 185, 185, 0);
     transition: 0.7s max-height 0.3s;
 }
 
-#plus:hover ul{
-    max-height: 250px;
-    
+.plus:hover ul{
+    display: contents;
 }
 
 .lien_SN{
