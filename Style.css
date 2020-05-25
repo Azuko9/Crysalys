@@ -39,7 +39,7 @@ header{
 
 
 #logoC {
-    width: 350px;
+    width: 330px;
     opacity: 0.8;
     transition: 0.7s;
 }
@@ -57,14 +57,14 @@ header{
 
 .menu {
     position: fixed;
-    top: 22%;
+    top: 33%;
     left: 0;
     margin: 0;
     padding: 0px;
     text-align: center;
     min-width: 390px;
     color: rgba(253, 253, 253, 0.7);
-    font: 1em "Eurostile";
+    font: 0.8em "Eurostile";
 }
 
 
@@ -87,7 +87,7 @@ a {
     display: inline-block;
     color:rgba(255, 255, 255, 0.8);
     text-decoration:white;
-    font: 0.8em "Eurostile";
+    font: 1em "Eurostile";
     transition: all 0.5s;
     
 }
@@ -106,7 +106,7 @@ a {
     color: white;
 }
 .menu_li2{
-    padding: 3px;
+    padding: 2px;
     margin: 1px 0;
 }
 
@@ -119,7 +119,7 @@ li:hover .a{
 
 .menu > li li a{
     color: grey;
-    font: 0.8em "Eurostile";
+    font: 1em "Eurostile";
     text-decoration:white;
     transition: all 0.5s;
 }
@@ -285,7 +285,68 @@ footer{
     width: 100vw;
     bottom: 0;
     background-color: rgba(19, 19, 19, 0.8);
+    text-align: center;
+    font: 1em "Eurostile";
+    color: rgba(255, 255, 255, 0.8);
+}
+p{
+    margin: 0;
+    padding: 2px;
 }
 
 
+#conteneur_Footeur{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.element_footeur{
+    top: 30px;
+    margin: 3px;
+    padding: 5px;
+    width:80px;
+    height:45px;
+    background-color:white;
+    background-size:cover;
+    background-position:center center;
+}
 
+#footeur_1{
+    background-image:url(Logo/logoaffiche.png);
+}
+
+#footeur_2{
+    background-image: url(clients/XTV.png);
+}
+
+#footeur_3{
+    background-image: url(clients/carouf.png);
+}
+
+#footeur_4{
+    background-image: url(clients/decathlon.png);
+}
+#footeur_5{
+    background-image: url(clients/elow.png);
+}
+
+#footeur_6{
+    background-image: url(clients/etincelle.png);
+}
+
+#footeur_7{
+    background-image: url(clients/id\ art\ large.jpg);
+}
+
+#footeur_8{
+    background-image: url(clients/pastel.png);
+}
+
+#footeur_9{
+    background-image: url(clients/pbo\ site.png);
+}
+
+
+#footeur_10{
+    background-image: url(clients/xs.jpg);
+}
