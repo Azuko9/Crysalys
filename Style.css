@@ -6,7 +6,6 @@
 @media screen and (orientation: portrait) {
     header{
         width: 100%;
-        font: 2.5em sans-serif;
     }
     #conteneur{
         display: none;
@@ -17,6 +16,8 @@
 
 }
 @media screen and (max-width:767px){
+
+
     .menu{
         min-width: 100%;
     }
@@ -25,18 +26,19 @@
         padding: 8px;
     }
 
-    #logoc_left{
-        text-align: left;
-    }
 
     #logoC{
-        width: 30vh;
+        width: 90%;
     }
 
 
 
 }
 @media screen and (min-width:768px){
+
+    header{
+        position: fixed;
+    }
     .menu{
         min-width: 390px;
         top: 33%;
@@ -54,7 +56,6 @@
 @media screen and (orientation: landscape){
     header{
         width: 100%;
-        font: 2em sans-serif;
     }
     #conteneur{
         display: none;
@@ -280,11 +281,11 @@ body:after
 
 header{
     z-index: 1;
-    position: fixed;
     display: flex;
     justify-content: flex-end;
     text-align: right;
     opacity: 80%;
+    font: 2em sans-serif;
 
 }
 
