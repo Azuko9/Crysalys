@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css" />
     <script src="https://kit.fontawesome.com/dd2369f655.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="functions.js"></script>
+
     <title>home</title>
 </head>
 
@@ -26,102 +28,79 @@
 
     </header>
     <main>
-        <nav>
-            <ul class="menu">
-                
-                    <img id="logoC" src="Logo/logoafficheBlanc.png" alt="">
+
+        <nav id="nav1">
+            <img id="logoC" src="Logo/logoafficheBlanc.png" alt="">
+            <div class="menu" id="menu1" onclick="afficheMenu(this)">
+                <a href="#">Menu 1</a>
+            </div>
+            <div id="sousmenu1" style="display:none">
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 1.1</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 1.2</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 1.3</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 1.4</a>
+                </div>
+            </div>
             
-                <li class="plus">
-                    <div class="menu_li">VIDEO MARKETING</div>
-                    <ul class="menu2">
-                        <li>
-                            <div class="menu_li2"><a href="#">Equipement</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="quiSommesNous.html">Qui somme nous?</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="contact.html">Contact</a></div>
-                        </li>
-                    </ul>
-                </li>
-                <li class="plus">
-                    <div class="menu_li">CLIP MUSICAUX</div>
-                    <ul class="menu2">
-                        <li>
-                            <div class="menu_li2"><a href="#">clip 01</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="quiSommesNous.html">Clip 02</a></div>
-                        </li>
-
-                        <li>
-                            <div class="menu_li2"><a href="contact.html">Tout voir</a></div>
-                        </li>
-
-                    </ul>
-                </li>
-                <li class="plus">
-                    <div class="menu_li">SERIE</div>
-                    <ul class="menu2">
-                        <li>
-                            <div class="menu_li2"><a href="#">série 1</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="quiSommesNous.html">Série 2</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="contact.html">Tout voir</a></div>
-                        </li>
-
-                    </ul>
-                </li>
-                <li class="plus">
-                    <div class="menu_li">COURS METRAGE</div>
-                    <ul class="menu2">
-                        <li>
-                            <div class="menu_li2"><a href="#">Equipement</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="quiSommesNous.html">Qui somme nous?</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="tarif.html">Tarif</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="mention_legale.html">Mention legale </a></div>
-                        </li>
-                    </ul>
-                </li>
-                <li class="plus">
-                    <div class="menu_li">INFORMATION</div>
-                    <ul class="menu2">
-                        <li>
-                            <div class="menu_li2"><a href="#">Equipement</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="quiSommesNous.html">Qui somme nous?</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="tarif.html">Tarif</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="contact.html">Contact</a></div>
-                        </li>
-                        <li>
-                            <div class="menu_li2"><a href="mention_legale.html">Mention legale </a></div>
-                        </li>
-                    </ul>
-
-                </li>
-
-            </ul>
-
-
-
-
+            <div class="menu" id="menu2" onclick="afficheMenu(this)">
+                <a href="#">Menu 2</a>
+            </div>
+            <div id="sousmenu2" style="display:none">
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 2.1</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 2.2</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 2.3</a>
+                </div>
+            </div>
+            
+            <div class="menu" id="menu3" onclick="afficheMenu(this)">
+                <a href="#">Menu 3</a>
+            </div>
+            <div id="sousmenu3" style="display:none">
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 2.1</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 2.2</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 2.3</a>
+                </div>
+            </div>
+            
+            <div class="menu" id="menu4" onclick="afficheMenu(this)">
+                <a href="#">Menu 4</a>
+            </div>
+            <div id="sousmenu4" style="display:none">
+                <div class="sousmenu">
+                    <a href="#" >Sous-Menu 4.1</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 4.2</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 4.3</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 4.4</a>
+                </div>
+                <div class="sousmenu">
+                    <a href="#">Sous-Menu 4.5</a>
+                </div>
+            </div>
         </nav>
-
+        
         <div id="conteneur">
             <div><h5>DERNIERES PRODUCTIONS</h5></div>
             <a class="element_h" href="pastelcreatif.html">
@@ -131,20 +110,20 @@
                     </div>
                 </section>
             </a>
-            <div><a class="element_h" href="jevis.html">
+            <a class="element_h" href="jevis.html">
                 <section id="section_1" class="iconGif">
                     <div class="videoTitre">
                         <p>Je vis</p>
                     </div>
                 </section>
-            </a></div>
-        <div><a class="element_h" href="decapulse.html">
+            </a>
+            <a class="element_h" href="decapulse.html">
                 <section id="section_5" class="iconGif">
                     <div class="videoTitre">
                         <p>Décapulse</p>
                     </div>
                 </section>
-            </a></div>
+            </a>
        
 
 

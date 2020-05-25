@@ -18,15 +18,12 @@
 @media screen and (max-width:767px){
 
 
-    .menu{
-        min-width: 100%;
-    }
-
-    .menu_li{
-        padding: 12px;
-    }
-
-
+.menu{
+    width:100vw;
+}
+.sousmenu{
+    width: 100vw;
+}
     #logoC{
         width: 90%;
     }
@@ -39,29 +36,56 @@
     header{
         position: fixed;
     }
-    .menu{
+    #nav1{
         min-width: 390px;
         top: 33%;
         position: fixed;
     }
 
-    .menu_li{
-        padding: 4px;
+    .menu{
+        width:400px;
+    }
+
+    .sousmenu{
+        width: 400px;
     }
     #logoC{
         width: 360px;
     }
 
     .clients{
-    opacity: 0.6;
+    opacity: 0.5;
 
     }
 
 }
+
+@media screen and (max-height:499px){
+    #logoC{
+        width: 58vh;
+    }
+
+    .menu{
+        width: 50vw;
+    }
+
+    .sousmenu{
+        width: 50vw;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-height:500px){
+        .sousmenu{
+        width: 400px;
+    }
+}
+
 @media screen and (orientation: landscape){
     header{
         width: 100%;
+        position: fixed;
     }
+
     #conteneur{
         display: none;
     }
@@ -296,11 +320,18 @@ header{
 
 #aheader{
     margin-right:   8px;
+    color: rgba(255, 255, 255, 0.8);
 }
 
  main{
      height: 100vh;
  }
+
+#nav1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 #logoC {
@@ -308,114 +339,49 @@ header{
     transition: 0.7s;
 }
 
-
-
-
-.menu {
-
-    left: 0;
-    margin: 0;
-    padding: 0px;
-    text-align: center;
-    color: rgba(253, 253, 253, 0.7);
-    font: 0.8em "Eurostile";
+#menu{
+	width:150px;
+	margin:20px auto 0 auto;
 }
-
-
-li {
-    list-style: none;
+.menu, .sousmenu{
+	text-align:center;
 }
-
-h1{
-    color:white;
-    margin: 18px;
-    opacity: 1;
-}
-h5{
-    margin: 10px;
-}
-a {
-    display: inline-block;
+.menu{
+    padding:1px 0;
     color:rgba(255, 255, 255, 0.8);
-    text-decoration:white;
-    font: 1em "Eurostile";
-    transition: all 0.5s;
     
 }
-.a3{
-    color: rgba(183, 185, 185, 0.8);
-
-}
-
-.menu_li{
-    background-color: rgba(19, 19, 19, 0.2);
-    margin: 2px 0;
-    cursor: pointer;
-}
-.menu_li:hover{
-    color: white;
-}
-.menu_li2{
-    padding: 2px;
-    margin: 1px 0;
-}
-
-li:hover .a{
-    color:rgba(183, 185, 185, 0.8);
-    transform: scale(1.1);
-}
-
-
-
-.menu > li li a{
-    color: grey;
-    font: 1em "Eurostile";
-    text-decoration:white;
-    transition: all 0.5s;
-}
-
-.menu > li li:hover a{
-    color:rgb(225, 243, 248);
-    transform: scale(1.15);
-}
-
-
-
-.menu ul {
-    max-height:0px;
-	margin: 0px; padding: 0px;
-    overflow: hidden;
-    background-color: rgba(183, 185, 185, 0);
-    transition: 0.7s max-height 0.3s;
-}
-
-.plus{
-    background-color: rgba(19, 19, 19, 0.6);
-}
-.plus:hover ul{
-    max-height: 250px;
-}
-
-.lien_SN{
-    position: absolute;
-    z-index: 3;
-    display: flex;
-    justify-content: end;
-    right: 0;
-    top: 0;
-    margin: 5px;
-}
-
-.logo_SN{
-    margin: 5px;
-    transition: 0.7s;
-    opacity: 0.8;
-}
-.logo_SN:hover{
-    opacity: 0.5;
-    transform: scale(0.95)
+.sousmenu{
+    height:20px;
+	padding:2px 0;
+	background:rgba(19, 19, 19, 0.6);
+    color:rgba(255, 255, 255, 0.8);
     
 }
+.menu a{
+    padding: 4px 0;
+	display:block;
+	width:100%;
+	height:100%;
+    color:rgba(255, 255, 255, 0.8);
+    font: 1em "Eurostile";
+    text-decoration:none;
+    background:rgba(19, 19, 19, 0.8);
+    transition: all 0.5s;
+}
+.sousmenu a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#fff;
+	font: 0.8em "Eurostile";
+    text-decoration:none;
+    transition: all 0.5s;
+}
+.menu a:hover, .sousmenu a:hover, .menu a:active, .sousmenu a:active, .menu a:focus, .sousmenu a:focus{
+    opacity: 0.6;
+}
+
 
 
 @keyframes fondu{
