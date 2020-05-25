@@ -3,9 +3,329 @@
     src: url("Font/Eurostile\ Extended\ #2.ttf");
 }
 
-body{
-    margin: 0;
+@media screen and (orientation: portrait) {
+    header{
+        width: 100%;
+    }
+    #conteneur{
+        display: none;
+    }
+    footer{
+        width: 100%;
+    }
+
 }
+@media screen and (max-width:767px){
+    .menu{
+        min-width: 100%;
+        top: 6%;
+    }
+
+    #logoC{
+        width: 30vh;
+    }
+
+    footer{
+        display: none;
+    }
+
+}
+@media screen and (min-width:768px){
+    .menu{
+        min-width: 390px;
+        top: 33%;
+    }
+    #logoC{
+        width: 360px;
+    }
+    footer{
+        text-align: center;
+        margin: 0;
+        bottom: 0;
+        background-color: rgba(19, 19, 19, 0.8);
+        text-align: center;
+        font: 1em "Eurostile";
+        color: rgba(255, 255, 255, 0.8);
+    }
+    p{
+        margin: 0;
+        padding: 2px;
+    }
+    
+    
+    #conteneur_Footeur{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    section{
+        margin: 3px;
+        padding:7px;
+        background-color: white;
+        
+    }
+    section:hover .clients{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    
+    .clients{
+        width:80px;
+        height:35px;
+        opacity: 0.6;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position:center;
+        transition: all 0.7s ease-in-out;
+    }
+    
+    #footeur_1{
+        background-image: url(clients/Casino.png);
+    }
+    
+    #footeur_2{
+        background-image: url(clients/XTV.png);
+    }
+    
+    #footeur_3{
+        background-image: url(clients/carouf.png);
+    }
+    
+    #footeur_4{
+        background-image: url(clients/decathlon.png);
+    }
+    #footeur_5{
+        background-image: url(clients/elow.png);
+    }
+    
+    #footeur_6{
+        background-image: url(clients/etincelle.png);
+    }
+    
+    #footeur_7{
+        background-image: url(clients/id\ art\ large.jpg);
+    }
+    
+    #footeur_8{
+        background-image: url(clients/pastel.png);
+    }
+    
+    #footeur_9{
+        background-image: url(clients/pbo\ site.png);
+    }
+    
+    
+    #footeur_10{
+        background-image: url(clients/xs.jpg);
+    }
+}
+@media screen and (orientation: landscape){
+    header{
+        width: 100%;
+    }
+    #conteneur{
+        display: none;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+@media screen and (orientation: landscape) and (min-width: 1280px){
+
+    header{
+        width: 80%;
+    }
+    #conteneur{
+        position: fixed;
+        height: 100vh;
+        width: 20%;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(19, 19, 19);
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font: 1em "Eurostile";
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    #Menue_video{
+        position:absolute;
+        width: 35%;
+        max-width: 628px;
+        min-height: 100%;
+        height: auto;
+        right: 0;
+        background-color: rgba(19, 19, 19, 0.8);
+       
+        
+    }
+    .conteneur_video{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        
+    }
+    
+    
+    .conteneur_clip{
+        position: absolute;
+        right: 0;
+        width: 40%;
+        height: 100%;
+        background-color: rgba(19, 19, 19, 0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .element_clip{
+        text-align:center;
+        color: white;
+        
+        
+    }
+    
+    
+    aside{
+        
+        width:auto;
+        height:auto;
+        text-align:center;
+        color: white;
+        margin: 10px;
+        padding: 20px;
+       
+    }
+    
+    
+    .element{
+        position: relative;
+        z-index: 1;
+        margin: 0px 12px 12px 12px;
+        border: 2px rgba(253, 253, 253, 0.7) solid;
+        width:100%;
+        height:280px;
+        background-color: rgba(58, 110, 110, 0.3);
+        text-align:center;
+        color: white;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden; 
+        
+    }
+    .element_h{
+        position: relative;
+        z-index: 1;
+        margin: 10px;
+        width:18vw;
+        height:19vh;
+        background-color: rgba(58, 110, 110, 0.3);
+        text-align:center;
+        color: white;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden; 
+        
+    }
+    .iconGif{
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        transition: 0.5s;
+        margin: 0;
+        padding: 0;
+    }
+    .iconGif:hover {
+        transform: scale(1.1);
+    }.iconGif:hover .videoTitre{
+        height: 30%;
+        transition: 0.7s 0.5s;
+    }
+    .videoTitre{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(19, 19, 19, 0.8);
+        letter-spacing:normal; 
+    }
+    
+    
+    #section_1{
+        
+        background-image: url(Fond\ page\ Wendy/imagette.jpg);
+        
+        
+    }
+    #section_1:hover{
+        background-image: url(Fond\ page\ Wendy/Je-Vis-V3-boucle.gif);
+        transition-delay: 0.5s ;
+    }
+    
+    
+    #section_2{
+        
+        background-image: url(Tommy\ Arthur/arthurimagette.jpg);
+    }
+    #section_2:hover{
+        background-image: url(Arthur-gif-boucle.gif);
+        transition-delay: 0.5s ;
+        
+    }
+    
+    #section_3{
+       
+        background-image: url(Pastel\ creatif/pastelcomimagette.jpg);
+    }
+    #section_3:hover{
+        background-image: url(Pastel\ creatif/pastel-creatif-boucle.gif);
+        transition-delay: 0.5s ;
+        
+    }
+    #section_4{
+        
+        background-image: url(tour.jpg);
+        
+    }
+    #section_5{
+       
+        background-image: url(Decapulse/Decapulse-imagette.jpg);
+    }
+    #section_5:hover{
+        background-image: url(Decapulse/Decapulse-boucle.gif);
+        transition-delay: 0.5s ;
+        
+    }
+    
+    #section_6{
+       
+        background-image: url(DJ\ Madgic/DJMadgicimagette.jpg);
+    }
+    #section_6:hover{
+        background-image: url(DJ\ Madgic/DJ-MADGIC-Boucle.gif);
+        transition-delay: 0.5s ;
+        
+    }
+
+    footer{
+        width: 80%;
+    }
+
+    
+}
+
+body{
+        margin: 0;
+    }
 body:before,
 body:after
 {
@@ -26,11 +346,17 @@ body:after
 
 
 header{
+    z-index: 1;
     position: fixed;
-    width: 98vw;
+    display: flex;
+    justify-content: flex-end;
     text-align: right;
     opacity: 70%;
     font: 2em sans-serif;
+}
+
+#aheader{
+    margin-right:   8px;
 }
 
  main{
@@ -39,7 +365,6 @@ header{
 
 
 #logoC {
-    width: 330px;
     opacity: 0.8;
     transition: 0.7s;
 }
@@ -57,12 +382,10 @@ header{
 
 .menu {
     position: fixed;
-    top: 33%;
     left: 0;
     margin: 0;
     padding: 0px;
     text-align: center;
-    min-width: 390px;
     color: rgba(253, 253, 253, 0.7);
     font: 0.8em "Eurostile";
 }
@@ -77,11 +400,8 @@ h1{
     margin: 18px;
     opacity: 1;
 }
-h4{
-    color:white;
-    margin: 18px 0px;
-    opacity: 1;
-    text-align: center;
+h5{
+    margin: 10px;
 }
 a {
     display: inline-block;
@@ -179,184 +499,4 @@ li:hover .a{
 }
 
 
-.conteneur{
-    display:none;
-    position:absolute;
-    width: 325px;
-    background-color: rgba(19, 19, 19, 0.8);
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-#Menue_video{
-    position:absolute;
-    width: 35%;
-    max-width: 628px;
-    min-height: 100%;
-    height: auto;
-    right: 0;
-    background-color: rgba(19, 19, 19, 0.8);
-   
-    
-}
-.conteneur_video{
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-
-.conteneur_clip{
-    position: absolute;
-    right: 0;
-    width: 40%;
-    height: 100%;
-    background-color: rgba(19, 19, 19, 0.8);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.element_clip{
-    text-align:center;
-    color: white;
-    
-    
-}
-
-aside{
-    
-    width:auto;
-    height:auto;
-    text-align:center;
-    color: white;
-    margin: 10px;
-    padding: 20px;
-   
-}
-
-
-.element{
-    position: relative;
-    z-index: 1;
-    margin: 0px 12px 12px 12px;
-    border: 2px rgba(253, 253, 253, 0.7) solid;
-    width:100%;
-    height:280px;
-    background-color: rgba(58, 110, 110, 0.3);
-    text-align:center;
-    color: white;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden; 
-    
-}
-.element_h{
-    position: relative;
-    z-index: 1;
-    margin: 0px 12px 12px 12px;
-    border: 2px rgba(253, 253, 253, 0.7) solid;
-    width:300px;
-    height:180px;
-    background-color: rgba(58, 110, 110, 0.3);
-    text-align:center;
-    color: white;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden; 
-    
-}
-
-
-
-
-
-
-footer{
-    text-align: center;
-    margin: 0;
-    width: 100vw;
-    bottom: 0;
-    background-color: rgba(19, 19, 19, 0.8);
-    text-align: center;
-    font: 1em "Eurostile";
-    color: rgba(255, 255, 255, 0.8);
-}
-p{
-    margin: 0;
-    padding: 2px;
-}
-
-
-#conteneur_Footeur{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-section{
-    margin: 3px;
-    padding:7px;
-    background-color: white;
-    
-}
-section:hover .clients{
-    transform: scale(1.1);
-    opacity: 1;
-}
-
-.clients{
-    width:80px;
-    height:35px;
-    opacity: 0.6;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:center;
-    transition: all 0.7s ease-in-out;
-}
-
-#footeur_1{
-    background-image: url(clients/Casino.png);
-}
-
-#footeur_2{
-    background-image: url(clients/XTV.png);
-}
-
-#footeur_3{
-    background-image: url(clients/carouf.png);
-}
-
-#footeur_4{
-    background-image: url(clients/decathlon.png);
-}
-#footeur_5{
-    background-image: url(clients/elow.png);
-}
-
-#footeur_6{
-    background-image: url(clients/etincelle.png);
-}
-
-#footeur_7{
-    background-image: url(clients/id\ art\ large.jpg);
-}
-
-#footeur_8{
-    background-image: url(clients/pastel.png);
-}
-
-#footeur_9{
-    background-image: url(clients/pbo\ site.png);
-}
-
-
-#footeur_10{
-    background-image: url(clients/xs.jpg);
-}
