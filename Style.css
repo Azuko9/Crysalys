@@ -300,19 +300,29 @@ p{
     justify-content: center;
     flex-wrap: wrap;
 }
-.element_footeur{
-    top: 30px;
+section{
     margin: 3px;
-    padding: 5px;
+    padding:7px;
+    background-color: white;
+    
+}
+section:hover .clients{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.clients{
     width:80px;
-    height:45px;
-    background-color:white;
-    background-size:cover;
-    background-position:center center;
+    height:35px;
+    opacity: 0.6;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    transition: all 0.7s ease-in-out;
 }
 
 #footeur_1{
-    background-image:url(Logo/logoaffiche.png);
+    background-image: url(clients/Casino.png);
 }
 
 #footeur_2{
