@@ -52,6 +52,11 @@
         width: 360px;
     }
 
+    .clients{
+    opacity: 0.6;
+
+    }
+
 }
 @media screen and (orientation: landscape){
     header{
@@ -302,15 +307,7 @@ header{
     opacity: 0.8;
     transition: 0.7s;
 }
-#logo {
-    width: 140px;
-    padding: 5px;
-    transition: 0.7s;
-}
-#logo:hover{
-    opacity: 0.5;
-    
-}
+
 
 
 
@@ -466,7 +463,6 @@ section:hover .clients{
 .clients{
     width:80px;
     height:35px;
-    opacity: 0.6;
     background-size: contain;
     background-repeat: no-repeat;
     background-position:center;
