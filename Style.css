@@ -223,7 +223,8 @@
         left: 50%;
         transform: translateX(-50%);
         background-color: rgba(19, 19, 19, 0.8);
-        letter-spacing:normal; 
+        letter-spacing:normal;
+        font: 1em "Eurostile";
     }
     
 
@@ -419,7 +420,7 @@ footer{
     color: rgba(255, 255, 255, 0.8);
 }
 p{
-    font: 28px "Eurostile";
+    font: 1em "Eurostile";
     margin: 0;
     padding: 2px;
 }
