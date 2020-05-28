@@ -330,12 +330,16 @@ header{
  }
 
 #aheader{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
     padding-top: 10px;
     margin: 10px;
     font: 2em "Eurostile";
+    transition: 0.7s;
 }
-
+#aheader:hover{
+    opacity: 1;
+}
  main{
      height: 100vh;
     color:rgba(255, 255, 255, 0.8);
@@ -418,7 +422,7 @@ footer{
     background-color: rgba(19, 19, 19, 1);
     text-align: center;
     font: 1em "Eurostile";
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.7);
 }
 p{
     font: 1em "Eurostile";
@@ -453,11 +457,11 @@ section:hover .clients{
 }
 
 #footeur_1{
-    background-image: url(clients/Casino.png);
+    background-image: url(clients/Casino-blanc.png);
 }
 
 #footeur_2{
-    background-image: url(clients/XTV.png);
+    background-image: url(clients/XTV-blanc.png);
 }
 
 #footeur_3{
@@ -465,29 +469,29 @@ section:hover .clients{
 }
 
 #footeur_4{
-    background-image: url(clients/decathlon.png);
+    background-image: url(clients/decathlon-blanc.png);
 }
 #footeur_5{
-    background-image: url(clients/elow.png);
+    background-image: url(clients/elow-blanc.png);
 }
 
 #footeur_6{
-    background-image: url(clients/etincelle.png);
+    background-image: url(clients/etincelle-blanc.png);
 }
 
 #footeur_7{
-    background-image: url(clients/id\ art\ large.jpg);
+    background-image: url(clients/id\ art-site.png);
 }
 
 #footeur_8{
-    background-image: url(clients/pastel.png);
+    background-image: url(clients/pastel-blanc.png);
 }
 
 #footeur_9{
-    background-image: url(clients/pbo\ site.png);
+    background-image: url(clients/pbo-blanc.png);
 }
 
 
 #footeur_10{
-    background-image: url(clients/xs.jpg);
+    background-image: url(clients/xsories-blanc.png);
 }
