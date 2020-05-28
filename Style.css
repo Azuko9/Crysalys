@@ -188,6 +188,7 @@
     .element_h{
         position: relative;
         z-index: 1;
+        opacity: 1;
         margin: 10px;
         width:18vw;
         height:19vh;
@@ -290,7 +291,7 @@
 }
 
 #logoheader{
-    margin: 10px 0;
+    padding: 10px;
 }
 
 body{
@@ -320,31 +321,35 @@ header{
     display: flex;
     justify-content: flex-end;
     text-align: right;
-    opacity: 80%;
     font: 1em "Eurostile";
 
 
 }
 
 #aheader{
-    margin-right:   8px;
     color: rgba(255, 255, 255, 0.8);
+    padding-top: 10px;
+    margin: 10px;
+    font: 2.5em "Eurostile";
 }
 
  main{
      height: 100vh;
+    color:rgba(255, 255, 255, 0.8);
  }
 
 #nav1{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 
 #logoC {
     opacity: 0.8;
     transition: 0.7s;
+    margin: 10px;
 }
 
 #menu{
@@ -413,6 +418,7 @@ footer{
     color: rgba(255, 255, 255, 0.8);
 }
 p{
+    font: 28px "Eurostile";
     margin: 0;
     padding: 2px;
 }
