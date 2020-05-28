@@ -229,10 +229,7 @@
     
 
     #section_1{
-        
         background-image: url(Fond\ page\ Wendy/imagette.jpg);
-        
-        
     }
     #section_1:hover{
         background-image: url(Fond\ page\ Wendy/Je-Vis-V3-boucle.gif);
@@ -271,7 +268,6 @@
     #section_5:hover{
         background-image: url(Decapulse/Decapulse-boucle.gif);
         transition-delay: 0.5s ;
-        
     }
     
     #section_6{
@@ -285,7 +281,9 @@
     }
 
     footer{
-        width: 80%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
     }
 
     
@@ -411,7 +409,6 @@ header{
 
 
 footer{
-    position: fixed;
     text-align: center;
     margin: 0;
     bottom: 0;
