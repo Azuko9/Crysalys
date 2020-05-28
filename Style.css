@@ -38,7 +38,7 @@
     }
     #nav1{
         min-width: 390px;
-        top: 33%;
+        top: 26%;
         position: fixed;
     }
 
@@ -411,10 +411,11 @@ header{
 
 
 footer{
+    position: fixed;
     text-align: center;
     margin: 0;
     bottom: 0;
-    background-color: rgba(19, 19, 19, 0.8);
+    background-color: rgba(19, 19, 19, 1);
     text-align: center;
     font: 1em "Eurostile";
     color: rgba(255, 255, 255, 0.8);

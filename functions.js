@@ -10,7 +10,7 @@ function afficheMenu(obj){
 	/** que celui dont le menu correspondant est cliqu� **/
 	/** o� 4 correspond au nombre de sous-menus         **/
 	/*****************************************************/
-	for(var i = 1; i <= 4; i++){
+	for(var i = 1; i <= 5; i++){
 		if(document.getElementById('sousmenu' + i) && document.getElementById('sousmenu' + i) != sousMenu){
 			document.getElementById('sousmenu' + i).style.display = "none";
 		}
