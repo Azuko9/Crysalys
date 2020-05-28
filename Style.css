@@ -212,8 +212,7 @@
         margin: 0;
         padding: 0;
     }
-    .iconGif:hover {
-        transform: scale(1.1);
+
     }.iconGif:hover .videoTitre{
         height: 30%;
         transition: 0.7s 0.5s;
@@ -262,7 +261,12 @@
     #section_4{
         
         background-image: url(tour.jpg);
-        
+    
+    }
+
+    #section_4:hover{
+        background-image: url(Star-Wars-boucle.gif);
+        transition-delay: 0.5s ;
     }
     #section_5{
        
