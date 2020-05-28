@@ -105,7 +105,7 @@
     }
     #conteneur{
         position: fixed;
-        height: 100vh;
+        height: 90vh;
         width: 20%;
         margin: 0;
         padding: 0;
@@ -114,7 +114,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         font: 1em "Eurostile";
+        padding-bottom: 70px;
         color: rgba(255, 255, 255, 0.8);
     }
 
@@ -190,9 +192,9 @@
         position: relative;
         z-index: 1;
         opacity: 1;
-        margin: 10px;
-        width:18vw;
-        height:19vh;
+        margin: 5px;
+        width:16vw;
+        height:17vh;
         background-color: rgba(58, 110, 110, 0.3);
         text-align:center;
         color: white;
@@ -331,7 +333,7 @@ header{
     color: rgba(255, 255, 255, 0.8);
     padding-top: 10px;
     margin: 10px;
-    font: 2.5em "Eurostile";
+    font: 2em "Eurostile";
 }
 
  main{
