@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    z-index: 1;
+    position: absolute;
+right: 0;
+    text-align: right;
+    padding: 10px 0;
+    font: 1em "Eurostile";
+    width: 512px;
+    min-height: 100vh;
+    background:rgba(19, 19, 19, 0.6);
+}
+
+#aheader{
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    padding-top: 10px;
+    margin: 10px;
+    font: 2em "Eurostile";
+    transition: 0.7s;
+}
+
+#aheader:hover{
+    opacity: 1;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+
+}
+.element_clip{
+    margin-left: 10px;
+    text-align:left;
+    color: white;
+    font-size: 0.9em;
+}
+
+body:before,
+body:after
+{
+    z-index: -1;
+    content:'';
+    position:fixed;
+     width:100vw;
+     height:100vh;
+    top:0; left: 0;
+    background-size:cover;
+    background-position:center center;
+}
+
+#jeVis:before,
+#jevis:after{
+    animation: jeVis 20s ease-in infinite ;
+}
+
+#jeVis:after
+{
+  animation: jeVis 20s ease-in 2s infinite ; 
+}
+
+@keyframes jeVis{
+    0%{background-image: url(background/jeVis/01jeVis.jpg);}
+    25%{background-image: url(background/jeVis/01jeVis.jpg);}
+    33.33%{background-image: url(background/jeVis/02jeVis.jpg);}
+    58.33%{background-image: url(background/jeVis/02jeVis.jpg);}
+    66.66%{background-image: url(background/jeVis/03jeVis.jpg);}
+    92.33%{background-image: url(background/jeVis/03jeVis.jpg);}
+    100%{background-image: url(background/jeVis/01jeVis.jpg);}
+}
+#arthur:before,
+#arthur:after{
+    animation: arthur 20s ease-in infinite ;
+}
+
+#arthur:after
+{
+  animation: arthur 20s ease-in 2s infinite ; 
+}
+
+@keyframes arthur{
+    0%{background-image: url(background/arthur/guitar.jpg);}
+    25%{background-image: url(background/arthur/guitar.jpg);}
+    33.33%{background-image: url(background/arthur/statue.jpg);}
+    58.33%{background-image: url(background/arthur/statue.jpg);}
+    66.66%{background-image: url(background/arthur/Tommy.jpg);}
+    92.33%{background-image: url(background/arthur/Tommy.jpg);}
+    100%{background-image: url(background/arthur/guitar.jpg);}
+}
+
+#djmadgic:before,
+#djmadgic:after{
+    animation: djmadgic 20s ease-in infinite ;
+}
+
+#djmadgic:after
+{
+  animation: djmadgic 20s ease-in 2s infinite ; 
+}
+
+@keyframes djmadgic{
+    0%{background-image: url(background/djMadgic/DJMadgic.jpg);}
+    25%{background-image: url(background/djMadgic/DJMadgic.jpg);}
+    33.33%{background-image: url(background/djMadgic/Final.jpg);}
+    58.33%{background-image: url(background/djMadgic/Final.jpg);}
+    66.66%{background-image: url(background/djMadgic/scratch.jpg);}
+    92.33%{background-image: url(background/djMadgic/scratch.jpg);}
+    100%{background-image: url(background/djMadgic/DJMadgic.jpg);}
+}
+
+
+main{
+    height: 100vh;
+   color:rgba(255, 255, 255, 0.8);
+}
+
+#nav1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-width: 390px;
+   top: 20%;
+   position: fixed;
+
+}
+
+
+#logoC {
+    width: 360px;
+   transition: 0.7s;
+   padding: 0 20px;
+}
+
+#logoC:hover{
+    background-color: rgba(19, 19, 19, 0.6);
+}
+
+.menu, .sousmenu{
+   text-align:center;
+   
+}
+.menu{
+   padding:1px 0;
+   color:rgba(255, 255, 255, 0.8);
+   width: 400px;
+}
+.sousmenu{
+   height:20px;
+   padding:2px 0;
+   background:rgba(19, 19, 19, 0.6);
+   color:rgba(255, 255, 255, 0.8);
+   width: 400px;
+   
+}
+.menu a{
+   padding: 10px 0;
+   display:block;
+   width:100%;
+   height:100%;
+   color:rgba(255, 255, 255, 0.8);
+   font: 1em "Eurostile";
+   text-decoration:none;
+   background:rgba(19, 19, 19, 0.8);
+   transition: all 0.5s;
+}
+.sousmenu a{
+   display:block;
+   width:100%;
+   height:100%;
+   color:#fff;
+   font: 0.8em "Eurostile";
+   text-decoration:none;
+   transition: all 0.5s;
+}
+.menu a:hover, .sousmenu a:hover, .menu a:active, .sousmenu a:active, .menu a:focus, .sousmenu a:focus{
+   opacity: 0.6;
+}
