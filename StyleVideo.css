@@ -207,7 +207,7 @@ body:after
 #menuespace{
     min-height: 100vh;
     min-width: 400px;
-    
+    background-color: rgba(19, 19, 19, 0.6);
 }
 main{
 
