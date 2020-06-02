@@ -204,7 +204,7 @@
         opacity: 1;
         margin: 5px;
         width:16vw;
-        height:17vh;
+        height:9vw;
         background-color: rgba(58, 110, 110, 0.3);
         text-align:center;
         color: white;
@@ -224,7 +224,7 @@
     }
 
     }.iconGif:hover .videoTitre{
-        height: 30%;
+        height: 25%;
         transition: 0.7s 0.5s;
     }
     .videoTitre{
