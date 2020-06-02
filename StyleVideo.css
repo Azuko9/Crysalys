@@ -19,7 +19,11 @@ body{
 
 @media screen and (min-width:1024px){
     header{
-        width: 45vw;
+        width: 36vw;
+    }
+
+    #headvoirplus{
+        width: 68vw;
     }
 
     #logomin{
@@ -72,7 +76,7 @@ nav{
     opacity: 1;
 }
 h1{
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     color: white;
 
@@ -95,6 +99,13 @@ body:after
     top:0; left: 0;
     background-size:cover;
     background-position:center center;
+}
+
+#bodyVoirplus{
+    height: 100vh;
+    display: flex;
+
+
 }
 
 #jeVis:before,
@@ -156,20 +167,31 @@ body:after
     100%{background-image: url(background/djMadgic/DJMadgic.jpg);}
 }
 
-
-main{
+#menuspace{
+    
     height: 100vh;
+    width: 390px;
+}
+main{
+
    color:rgba(255, 255, 255, 0.8);
 }
-
+#navmultivid{
+    flex: 1;
+}
 #nav1{
    display: flex;
    flex-direction: column;
    align-items: center;
    min-width: 390px;
+   margin: 0;
    top: 20%;
    position: fixed;
 
+}
+#vplus{
+    position: relative;
+    padding-top: 20vh;
 }
 
 
@@ -182,6 +204,8 @@ main{
 #logoC:hover{
     background-color: rgba(19, 19, 19, 0.6);
 }
+
+
 
 .menu, .sousmenu{
    text-align:center;
