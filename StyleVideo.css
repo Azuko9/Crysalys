@@ -22,6 +22,10 @@ body{
         width: 45vw;
     }
 
+    #logomin{
+        display: none;
+    }
+
     article{
         text-align: left;
     }
@@ -40,7 +44,7 @@ right: 0;
 
 #aheader{
     color: rgb(255, 255, 255);
-    opacity: 0.8;
+    opacity: 0.7;
     padding-top: 10px;
     margin: 10px;
     font: 2em "Eurostile";
@@ -50,9 +54,25 @@ right: 0;
 #aheader:hover{
     opacity: 1;
 }
+
+#logomin{
+    position: absolute;
+    margin: 4px;
+    height: 2em;
+    width: 5.5em;
+    background-image: url(Logo/logoafficheBlanc.png);
+    background-size:cover;
+    opacity: 0.7;
+    transition: 0.7s;
+}
+
+#logomin:hover{
+    opacity: 1;
+}
 h1{
     font-size: 2em;
     text-align: center;
+    color: white;
 
 }
 .element_clip{
