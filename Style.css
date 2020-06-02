@@ -45,7 +45,7 @@
     }
     #nav1{
         min-width: 390px;
-        top: 20%;
+        top: 18%;
         position: fixed;
     }
 
@@ -408,7 +408,8 @@ header{
 .sousmenu a{
 	display:block;
 	width:100%;
-	height:100%;
+    height:100%;
+    margin: 4px 0;
 	color:#fff;
 	font: 0.8em "Eurostile";
     text-decoration:none;
