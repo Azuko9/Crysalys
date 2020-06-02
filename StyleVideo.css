@@ -11,7 +11,7 @@ body{
 
 @media screen and (min-width:768px){
     .element_h{
-        width:50%;
+        width:48%;
         height:30vw;
     }
 }
@@ -38,7 +38,7 @@ body{
         width: 36vw;
     }
 .element_h{
-        width:33.33%;
+        width:32.5%;
         height:15vw;
     }
     #headvoirplus{
@@ -326,6 +326,7 @@ article{
 }
 .element_h{
     position: relative;
+    margin: 5px 0 0 5px;
     z-index: 1;
     opacity: 1;
     background-color: rgba(58, 110, 110, 0.3);
