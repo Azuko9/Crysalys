@@ -2,6 +2,19 @@ body{
     margin: 0;
     background-color: black;
 }
+@media screen and (max-width:767px){
+    .element_h{
+        width:99.9%;
+        height:50vw;
+    }
+}
+
+@media screen and (min-width:768px){
+    .element_h{
+        width:50%;
+        height:30vw;
+    }
+}
 @media screen and (max-width: 1023px){
 
     header{
@@ -24,7 +37,10 @@ body{
     header{
         width: 36vw;
     }
-
+.element_h{
+        width:33.33%;
+        height:15vw;
+    }
     #headvoirplus{
         width: 68vw;
     }
@@ -48,9 +64,7 @@ right: 0;
     min-height: 100vh;
     background:rgba(19, 19, 19, 0.6);
 }
-nav{
-    margin: 0 8px;
-}
+
 
 #aheader{
     color: rgb(255, 255, 255);
@@ -191,7 +205,7 @@ body:after
 }
 
 #menuespace{
-    height: 100vh;
+    min-height: 100vh;
     min-width: 400px;
     
 }
@@ -201,11 +215,18 @@ main{
 }
 #navmultivid{
     flex: 1;
+    height: auto;
+background-color: rgba(19, 19, 19, 0.6);
     margin: 0;
     text-align: right;
-    background-color: rgba(19, 19, 19, 0.6);
+
 
 }
+#naviconehead{
+
+    padding: 0 8px;
+}
+
 #nav1{
    display: flex;
    flex-direction: column;
@@ -214,6 +235,7 @@ main{
    margin: 0;
    top: 20%;
    position: fixed;
+
 
 }
 #vplus{
@@ -248,7 +270,7 @@ main{
    padding:2px 0;
    color:rgba(255, 255, 255, 0.8);
    width: 400px;
-   
+   background:rgba(19, 19, 19, 0.6);
 }
 .menu a{
    padding: 10px 0;
@@ -292,7 +314,12 @@ main{
 }
 article{
     height: auto;
+    
+}
+
+#blocanim{
     display: flex;
+
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -301,8 +328,6 @@ article{
     position: relative;
     z-index: 1;
     opacity: 1;
-    width:33.33%;
-    height:15vw;
     background-color: rgba(58, 110, 110, 0.3);
     text-align:center;
     color: white;
@@ -349,47 +374,19 @@ article{
 
 #section_arthur{
     
-    background-image: url();
+    background-image: url(Tommy\ Arthur/arthurimagette.jpg);
 }
 #section_arthur:hover{
-    background-image: url(Arthur-gif-boucle.gif);
+    background-image: url(Tommy\ Arthur/arthur-gif-boucle.gif);
     transition-delay: 0.5s ;
     
 }
 
-#section_3{
-   
-    background-image: url(Pastel\ creatif/pastelcomimagette.jpg);
-}
-#section_3:hover{
-    background-image: url(Pastel\ creatif/pastel-creatif-boucle.gif);
-    transition-delay: 0.5s ;
-    
-}
-#section_4{
-    
-    background-image: url(tour.jpg);
-
-}
-
-#section_4:hover{
-    background-image: url(Star-Wars-boucle.gif);
-    transition-delay: 0.5s ;
-}
-#section_5{
-   
-    background-image: url(Decapulse/Decapulse-imagette.jpg);
-}
-#section_5:hover{
-    background-image: url(Decapulse/Decapulse-boucle.gif);
-    transition-delay: 0.5s ;
-}
-
-#section_6{
+#section_djmadgic{
    
     background-image: url(DJ\ Madgic/DJMadgicimagette.jpg);
 }
-#section_6:hover{
+#section_djmadgic:hover{
     background-image: url(DJ\ Madgic/DJ-MADGIC-Boucle.gif);
     transition-delay: 0.5s ;
     
