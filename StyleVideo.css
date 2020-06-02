@@ -12,6 +12,9 @@ body{
         display: none;
 
     }
+    #menuespace{
+        display: none;
+    }
     article{
         text-align: center;
     }
@@ -106,6 +109,26 @@ body:after
     display: flex;
 
 
+
+}
+#bodyVoirplus:before,
+#bodyVoirplus:after{
+    animation: jeVis 20s ease-in infinite ;
+}
+
+#bodyVoirplus:after
+{
+  animation: jeVis 20s ease-in 2s infinite ; 
+}
+
+@keyframes jeVis{
+    0%{background-image: url(background/jeVis/01jeVis.jpg);}
+    25%{background-image: url(background/jeVis/01jeVis.jpg);}
+    33.33%{background-image: url(background/jeVis/02jeVis.jpg);}
+    58.33%{background-image: url(background/jeVis/02jeVis.jpg);}
+    66.66%{background-image: url(background/jeVis/03jeVis.jpg);}
+    92.33%{background-image: url(background/jeVis/03jeVis.jpg);}
+    100%{background-image: url(background/jeVis/01jeVis.jpg);}
 }
 
 #jeVis:before,
@@ -167,10 +190,10 @@ body:after
     100%{background-image: url(background/djMadgic/DJMadgic.jpg);}
 }
 
-#menuspace{
-    
+#menuespace{
     height: 100vh;
-    width: 390px;
+    min-width: 400px;
+    
 }
 main{
 
@@ -178,6 +201,10 @@ main{
 }
 #navmultivid{
     flex: 1;
+    margin: 0;
+    text-align: right;
+    background-color: rgba(19, 19, 19, 0.6);
+
 }
 #nav1{
    display: flex;
@@ -219,7 +246,6 @@ main{
 .sousmenu{
    height:20px;
    padding:2px 0;
-   background:rgba(19, 19, 19, 0.6);
    color:rgba(255, 255, 255, 0.8);
    width: 400px;
    
@@ -263,4 +289,108 @@ main{
     left: 0;
     width: 100%;
     height: 100%;
+}
+article{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.element_h{
+    position: relative;
+    z-index: 1;
+    opacity: 1;
+    width:33.33%;
+    height:15vw;
+    background-color: rgba(58, 110, 110, 0.3);
+    text-align:center;
+    color: white;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+    
+}
+.iconGif{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+}
+
+.iconGif:hover .videoTitre{
+    height: 25%;
+    transition: 0.7s 0.5s;
+}
+.videoTitre{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(19, 19, 19, 0.8);
+    letter-spacing:normal;
+    font: 1em "Eurostile";
+}
+
+
+#section_jeVis{
+    background-image: url(Fond\ page\ Wendy/imagette.jpg);
+}
+#section_jeVis:hover{
+    background-image: url(Fond\ page\ Wendy/Je-Vis-V3-boucle.gif);
+    transition-delay: 0.5s ;
+}
+
+
+#section_arthur{
+    
+    background-image: url();
+}
+#section_arthur:hover{
+    background-image: url(Arthur-gif-boucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+#section_3{
+   
+    background-image: url(Pastel\ creatif/pastelcomimagette.jpg);
+}
+#section_3:hover{
+    background-image: url(Pastel\ creatif/pastel-creatif-boucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+#section_4{
+    
+    background-image: url(tour.jpg);
+
+}
+
+#section_4:hover{
+    background-image: url(Star-Wars-boucle.gif);
+    transition-delay: 0.5s ;
+}
+#section_5{
+   
+    background-image: url(Decapulse/Decapulse-imagette.jpg);
+}
+#section_5:hover{
+    background-image: url(Decapulse/Decapulse-boucle.gif);
+    transition-delay: 0.5s ;
+}
+
+#section_6{
+   
+    background-image: url(DJ\ Madgic/DJMadgicimagette.jpg);
+}
+#section_6:hover{
+    background-image: url(DJ\ Madgic/DJ-MADGIC-Boucle.gif);
+    transition-delay: 0.5s ;
+    
 }
