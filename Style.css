@@ -312,6 +312,7 @@
 body{
         margin: 0;
         background-color: black;
+
     }
 body:before,
 body:after
@@ -328,7 +329,8 @@ body:after
 }
 body:after
 {
-  animation: fondu 20s ease-in 2s infinite ; 
+  animation: fondu 20s ease-in 2s infinite ;
+  background-image: url(background/index/arthur\ site.jpg);
 }
 
 
