@@ -221,7 +221,7 @@
     }
 
     }.iconGif:hover .videoTitre{
-        height:2.5em;
+        height:20%;
         transition: 0.7s 0.5s;
     }
     .videoTitre{
@@ -229,10 +229,7 @@
         bottom: 0px;
         width: 100%;
         height: 0%;
-        left: 50%;
-        transform: translateX(-50%);
         background-color: rgba(19, 19, 19, 0.8);
-        letter-spacing:normal;
         font-family: 'Michroma', sans-serif;
         font-size: 1em;
     }
