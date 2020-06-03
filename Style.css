@@ -1,6 +1,10 @@
 @font-face{
     font-family: "Eurostile";
-    src: url("Eurostile\ Extended\ #2.ttf");
+    src: url('Eurostile\ Extended\ #2.ttf');
+    src: url('Eurostile\ Extended\ #2') format('embedded-opentype'),
+         url('Eurostile\ Extended\ #2.woff') format('woff'),
+         url('Eurostile\ Extended\ #2.ttf') format('truetype'),
+         url('Eurostile\ Extended\ #2.svg#cac_champagneregular') format('svg');
 }
 
 @media screen and (orientation: portrait) {
