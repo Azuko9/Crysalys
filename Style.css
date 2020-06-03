@@ -125,7 +125,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        font: 1em "Eurostile";
+        font-family: 1em "Eurostile";
         padding-bottom: 70px;
         color: rgba(255, 255, 255, 0.8);
     }
@@ -224,7 +224,7 @@
     }
 
     }.iconGif:hover .videoTitre{
-        height: 25%;
+        height:2.5em;
         transition: 0.7s 0.5s;
     }
     .videoTitre{
@@ -236,7 +236,8 @@
         transform: translateX(-50%);
         background-color: rgba(19, 19, 19, 0.8);
         letter-spacing:normal;
-        font: 1em "Eurostile";
+        font-family:"Eurostile";
+        font-size: 1em;
     }
     
 
@@ -339,7 +340,8 @@ header{
     display: flex;
     justify-content: flex-end;
     text-align: right;
-    font: 1em "Eurostile";
+    font-family:"Eurostile";
+    font-size: 1em;
 }
  h5{
      margin: 5px 0;
@@ -350,7 +352,8 @@ header{
     opacity: 0.7;
     padding-top: 10px;
     margin: 10px;
-    font: 2em "Eurostile";
+    font-family:"Eurostile";
+    font-size: 2em;
     transition: 0.7s;
 }
 #aheader:hover{
@@ -400,7 +403,8 @@ header{
 	width:100%;
 	height:100%;
     color:rgba(255, 255, 255, 0.8);
-    font: 1em "Eurostile";
+    font-family:"Eurostile";
+    font-size: 1em;
     text-decoration:none;
     background:rgba(19, 19, 19, 0.8);
     transition: all 0.5s;
@@ -409,9 +413,10 @@ header{
 	display:block;
 	width:100%;
     height:100%;
-    margin: 4px 0;
+    padding-bottom: 8px;
 	color:#fff;
-	font: 0.8em "Eurostile";
+    font-family:"Eurostile";
+    font-size: 0.8em;
     text-decoration:none;
     transition: all 0.5s;
 }
@@ -438,11 +443,12 @@ footer{
     bottom: 0;
     background-color: rgba(19, 19, 19, 1);
     text-align: center;
-    font: 1em "Eurostile";
+    font-family:"Eurostile";
+    font-size: 0.8em;
     color: rgba(255, 255, 255, 0.7);
 }
 p{
-    font: 1em "Eurostile";
+    font-family: 1em "Eurostile";
     margin: 0;
     padding-top: 10px;
 }
