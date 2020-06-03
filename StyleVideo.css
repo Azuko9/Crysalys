@@ -119,31 +119,12 @@ body:after
     background-position:center center;
 }
 
-#bodyVoirplus{
+#bodyClipVoirplus{
     height: 100vh;
     display: flex;
 
 
 
-}
-#bodyVoirplus:before,
-#bodyVoirplus:after{
-    animation: jeVis 20s ease-in infinite ;
-}
-
-#bodyVoirplus:after
-{
-  animation: jeVis 20s ease-in 2s infinite ; 
-}
-
-@keyframes jeVis{
-    0%{background-image: url(background/jeVis/01jeVis.jpg);}
-    25%{background-image: url(background/jeVis/01jeVis.jpg);}
-    33.33%{background-image: url(background/jeVis/02jeVis.jpg);}
-    58.33%{background-image: url(background/jeVis/02jeVis.jpg);}
-    66.66%{background-image: url(background/jeVis/03jeVis.jpg);}
-    92.33%{background-image: url(background/jeVis/03jeVis.jpg);}
-    100%{background-image: url(background/jeVis/01jeVis.jpg);}
 }
 
 

@@ -28,6 +28,27 @@
 }
 
 
+
+#bodyClipVoirplus:before,
+#bodyClipVoirplus:after{
+    animation: clipfond 20s ease-in infinite ;
+}
+
+#bodyClipVoirplus:after
+{
+  animation: clipfond 20s ease-in 2s infinite ; 
+}
+
+@keyframes clipfond{
+    0%{background-image: url(FondPageClipvideo/DJMadgic.jpg);}
+    25%{background-image: url(FondPageClipvideo/DJMadgic.jpg);}
+    33.33%{background-image: url(FondPageClipvideo/Tommy.jpg);}
+    58.33%{background-image: url(FondPageClipvideo/Tommy.jpg);}
+    66.66%{background-image: url(FondPageClipvideo/Wendy.jpg);}
+    92.33%{background-image: url(FondPageClipvideo/Wendy.jpg);}
+    100%{background-image: url(FondPageClipvideo/DJMadgic.jpg);}
+}
+
 #jeVis:before,
 #jevis:after{
     animation: jeVis 20s ease-in infinite ;
