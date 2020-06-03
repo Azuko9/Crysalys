@@ -1,0 +1,88 @@
+#section_jeVis{
+    background-image: url(Fond\ page\ Wendy/imagette.jpg);
+}
+#section_jeVis:hover{
+    background-image: url(Fond\ page\ Wendy/Je-Vis-V3-boucle.gif);
+    transition-delay: 0.5s ;
+}
+
+
+#section_arthur{
+    
+    background-image: url(Tommy\ Arthur/arthurimagette.jpg);
+}
+#section_arthur:hover{
+    background-image: url(Tommy\ Arthur/arthurgifboucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+#section_djmadgic{
+   
+    background-image: url(DJ\ Madgic/DJMadgicimagette.jpg);
+}
+#section_djmadgic:hover{
+    background-image: url(DJ\ Madgic/DJ-MADGIC-Boucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+
+#jeVis:before,
+#jevis:after{
+    animation: jeVis 20s ease-in infinite ;
+}
+
+#jeVis:after
+{
+  animation: jeVis 20s ease-in 2s infinite ; 
+}
+
+@keyframes jeVis{
+    0%{background-image: url(background/jeVis/01jeVis.jpg);}
+    25%{background-image: url(background/jeVis/01jeVis.jpg);}
+    33.33%{background-image: url(background/jeVis/02jeVis.jpg);}
+    58.33%{background-image: url(background/jeVis/02jeVis.jpg);}
+    66.66%{background-image: url(background/jeVis/03jeVis.jpg);}
+    92.33%{background-image: url(background/jeVis/03jeVis.jpg);}
+    100%{background-image: url(background/jeVis/01jeVis.jpg);}
+}
+#arthur:before,
+#arthur:after{
+    animation: arthur 20s ease-in infinite ;
+}
+
+#arthur:after
+{
+  animation: arthur 20s ease-in 2s infinite ; 
+}
+
+@keyframes arthur{
+    0%{background-image: url(background/arthur/guitar.jpg);}
+    25%{background-image: url(background/arthur/guitar.jpg);}
+    33.33%{background-image: url(background/arthur/statue.jpg);}
+    58.33%{background-image: url(background/arthur/statue.jpg);}
+    66.66%{background-image: url(background/arthur/Tommy.jpg);}
+    92.33%{background-image: url(background/arthur/Tommy.jpg);}
+    100%{background-image: url(background/arthur/guitar.jpg);}
+}
+
+#djmadgic:before,
+#djmadgic:after{
+    animation: djmadgic 20s ease-in infinite ;
+}
+
+#djmadgic:after
+{
+  animation: djmadgic 20s ease-in 2s infinite ; 
+}
+
+@keyframes djmadgic{
+    0%{background-image: url(background/djMadgic/DJMadgic.jpg);}
+    25%{background-image: url(background/djMadgic/DJMadgic.jpg);}
+    33.33%{background-image: url(background/djMadgic/Final.jpg);}
+    58.33%{background-image: url(background/djMadgic/Final.jpg);}
+    66.66%{background-image: url(background/djMadgic/scratch.jpg);}
+    92.33%{background-image: url(background/djMadgic/scratch.jpg);}
+    100%{background-image: url(background/djMadgic/DJMadgic.jpg);}
+}
