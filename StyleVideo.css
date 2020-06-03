@@ -59,7 +59,6 @@ header{
     position: absolute;
 right: 0;
     text-align: right;
-    padding: 10px 0;
     font-family: 'Michroma', sans-serif;
     font-size: 1em;
     min-height: 100vh;
@@ -71,7 +70,7 @@ right: 0;
     color: rgb(255, 255, 255);
     opacity: 0.7;
     margin: 2px;
-    font: 32px 'Michroma', sans-serif;
+    font: 38px 'Michroma', sans-serif;
     transition: 0.7s;
 }
 
@@ -80,10 +79,10 @@ right: 0;
 }
 
 #logomin{
-    position: absolute;
-    margin: 2px 4px;
+
     height: 38px;
     width: 100px;
+    margin-top: 4px;
     background-image: url(Logo/logoafficheBlanc.png);
     background-size:cover;
     opacity: 0.7;
@@ -100,7 +99,7 @@ h1{
 
 }
 .element_clip{
-    margin-left: 10px;
+    margin: 10px;
 
     color: white;
     font-size: 0.9em;
@@ -148,7 +147,9 @@ background-color: rgba(19, 19, 19, 0.6);
 
 }
 #naviconehead{
-
+display: flex;
+justify-content: space-between;
+align-items: center;
     padding: 0 8px;
 }
 
@@ -225,7 +226,7 @@ background-color: rgba(19, 19, 19, 0.6);
 .youtubeResp {
     position: relative;
     margin: 10px;
-    padding-bottom: 56.25%; /* ratio 16/9 */
+    padding-bottom: 55%; /* ratio 16/9 */
     height: 0; overflow: hidden;
     clear: both;
 }
