@@ -1,3 +1,31 @@
+/* ecofi20*/
+#section_ecofi20{
+   
+    background-image: url(Marketing/Ecofi-voeux-2020/ecofi-voeux2020-fond1.jpg);
+}
+#section_ecofi20:hover{
+    background-image: url(Marketing/Ecofi-voeux-2020/ecofi-voeux2020-GIF.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+#ecofi20:before,
+#ecofi20:after{
+    animation: ecofi20 12s ease-in infinite ;
+}
+
+#ecofi:after
+{
+  animation: ecofi20 12s ease-in 2s infinite ; 
+}
+
+@keyframes ecofi20{
+    0%{background-image: url(Marketing/Ecofi-voeux-2020/ecofi-voeux2020-fond1.jpg);}
+    50%{background-image: url(Marketing/Ecofi-voeux-2020/ecofi-voeux2020-fond2.jpg);}
+    100%{background-image: url(Marketing/Ecofi-voeux-2020/ecofi-voeux2020-fond1.jpg);}
+}
+
+
 /* décapulse*/
 
 #section_decapulse{
