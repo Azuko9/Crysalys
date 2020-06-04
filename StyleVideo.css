@@ -322,6 +322,13 @@ margin-right: 5PX;
     transition: 1s;
 }
 
+a{
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.7s;
+}
+a:hover{
+    color: white;
+}
 
 p{
     margin: 3px 0 6px 0;
