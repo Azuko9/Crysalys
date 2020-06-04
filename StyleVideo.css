@@ -180,12 +180,17 @@ align-items: center;
 
 #logoC {
     width: 360px;
+    height: 167px;
+    background-image: url(Logo/logoafficheBlancSite1.png);
    transition: 0.7s;
-   padding: 0 20px;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden; 
 }
 
 #logoC:hover{
-    background-color: rgba(19, 19, 19, 0.6);
+    background-image: url(Logo/logositegif.gif)
 }
 
 

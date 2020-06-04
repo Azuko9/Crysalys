@@ -225,15 +225,15 @@
 
 #bodyMarketingVoirplus:before,
 #bodyMarketingVoirplus:after{
-    animation: clipfond 20s ease-in infinite ;
+    animation: marketingvoirplus 20s ease-in infinite ;
 }
 
-#bodymarketingVoirplus:after
+#bodyMarketingVoirplus:after
 {
-  animation: clipfond 20s ease-in 2s infinite ; 
+  animation: marketingvoirplus 20s ease-in 2s infinite ; 
 }
 
-@keyframes clipfond{
+@keyframes marketingvoirplus{
     0%{background-image: url(Marketing/Fond\ page\ video\ marketing/pastel\ table\ 1.jpg);}
     25%{background-image: url(Marketing/Fond\ page\ video\ marketing/pastel\ table\ 1.jpg);}
     33.33%{background-image: url(Marketing/Fond\ page\ video\ marketing/Ecofi-ER-fond2.jpg);}
