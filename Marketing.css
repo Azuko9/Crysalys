@@ -1,0 +1,148 @@
+/* décapulse*/
+
+#section_decapulse{
+    background-image: url(Marketing/Decapulse/Decapulse-imagette.jpg);
+}
+#section_decapulse:hover{
+    background-image: url(Marketing/Decapulse/Decapulse-boucle.gif);
+    transition-delay: 0.5s ;
+}
+#decapulse:before,
+#decapulse:after{
+    animation: decapulse 20s ease-in infinite ;
+}
+
+#decapulse:after
+{
+  animation: decapulse 20s ease-in 2s infinite ; 
+}
+
+@keyframes decapulse{
+    0%{background-image: url(Marketing/Decapulse/Fond1.jpg);}
+    25%{background-image: url(Marketing/Decapulse/Fond1.jpg);}
+    33.33%{background-image: url(Marketing/Decapulse/Fond2.jpg);}
+    58.33%{background-image: url(Marketing/Decapulse/Fond2.jpg);}
+    66.66%{background-image: url(Marketing/Decapulse/Fond3.jpg);}
+    92.33%{background-image: url(Marketing/Decapulse/Fond3.jpg);}
+    100%{background-image: url(Marketing/Decapulse/Fond1.jpg);}
+}
+
+/* carrefour*/
+
+#section_carrefour{
+    
+    background-image: url(Marketing/Carrefour\ Lescar/Carrefour-imagette.jpg);
+}
+#section_carrefour:hover{
+    background-image: url(Marketing/Carrefour\ Lescar/carrefour-boucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+#carrefour:before,
+#carrefour:after{
+    animation: carrefour 20s ease-in infinite ;
+}
+
+#carrefour:after
+{
+  animation: carrefour 20s ease-in 2s infinite ; 
+}
+
+@keyframes carrefour{
+    0%{background-image: url(Marketing/Carrefour\ Lescar/Carrefour-fond1.jpg);}
+    25%{background-image: url(Marketing/Carrefour\ Lescar/Carrefour-fond1.jpg);}
+    33.33%{background-image: url(Marketing/Carrefour\ Lescar/Carrefour-fond2.jpg);}
+    58.33%{background-image: url(Marketing/Carrefour\ Lescar/Carrefour-fond2.jpg);}
+    66.66%{background-image: url(Marketing/Carrefour\ Lescar/Carrefour-fond3.jpg);}
+    92.33%{background-image: url(Marketing/Carrefour\ Lescar/Carrefour-fond3.jpg);}
+    100%{background-image: url(Marketing/Carrefour\ Lescar/Carrefour-fond1.jpg);}
+}
+
+/* ecofi*/
+#section_ecofi{
+   
+    background-image: url(Marketing/Ecofi\ energie\ renouvelable/Ecofi-ER-imagette.jpg);
+}
+#section_ecofi:hover{
+    background-image: url(Marketing/Ecofi\ energie\ renouvelable/Ecofi-ER-boucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+#ecofi:before,
+#ecofi:after{
+    animation: ecofi 20s ease-in infinite ;
+}
+
+#ecofi:after
+{
+  animation: ecofi 20s ease-in 2s infinite ; 
+}
+
+@keyframes ecofi{
+    0%{background-image: url(Marketing/Ecofi\ energie\ renouvelable/Ecofi-ER-fond1.jpg);}
+    25%{background-image: url(Marketing/Ecofi\ energie\ renouvelable/Ecofi-ER-fond1.jpg);}
+    33.33%{background-image: url(Marketing/Ecofi\ energie\ renouvelable/Ecofi-ER-fond2.jpg);}
+    58.33%{background-image: url(Marketing/Ecofi\ energie\ renouvelable/Ecofi-ER-fond2.jpg);}
+    66.66%{background-image: url(Marketing/Ecofi\ energie\ renouvelable/Ecofi-ER-fond3.jpg);}
+    92.33%{background-image: url(Marketing/Ecofi\ energie\ renouvelable/Ecofi-ER-fond3.jpg);}
+    100%{background-image: url(Marketing/Ecofi\ energie\ renouvelable/Ecofi-ER-fond1.jpg);}
+}
+
+
+/* pastel1*/
+#section_pastel1{
+   
+    background-image: url(Marketing/Pastel\ creatif/pastel-imagette.jpg);
+}
+#section_pastel1:hover{
+    background-image: url(Marketing/Pastel\ creatif/pastel-creatif-boucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+#pastel1:before,
+#pastel1:after{
+    animation: pastel1 20s ease-in infinite ;
+}
+
+#pastel1:after
+{
+  animation: pastel1 20s ease-in 2s infinite ; 
+}
+
+@keyframes pastel1{
+    0%{background-image: url(Marketing/Pastel\ creatif/team\ pastel.jpg);}
+    25%{background-image: url(Marketing/Pastel\ creatif/team\ pastel.jpg);}
+    33.33%{background-image: url(Marketing/Pastel\ creatif/pastel\ table\ 1.jpg);}
+    58.33%{background-image: url(Marketing/Pastel\ creatif/pastel\ table\ 1.jpg);}
+    66.66%{background-image: url(Marketing/Pastel\ creatif/pastel\ 2k.jpg);}
+    92.33%{background-image: url(Marketing/Pastel\ creatif/pastel\ 2k.jpg);}
+    100%{background-image: url(Marketing/Pastel\ creatif/team\ pastel.jpg);}
+}
+
+
+#bodyMarketingVoirplus:before,
+#bodyClipVoirplus:after{
+    animation: clipfond 20s ease-in infinite ;
+}
+
+#bodymarketingVoirplus:after
+{
+  animation: clipfond 20s ease-in 2s infinite ; 
+}
+
+@keyframes clipfond{
+    0%{background-image: url(Marketing/Fond\ page\ video\ marketing/pastel\ table\ 1.jpg);}
+    25%{background-image: url(Marketing/Fond\ page\ video\ marketing/pastel\ table\ 1.jpg);}
+    33.33%{background-image: url(Marketing/Fond\ page\ video\ marketing/Ecofi-ER-fond2.jpg);}
+    58.33%{background-image: url(Marketing/Fond\ page\ video\ marketing/Ecofi-ER-fond2.jpg);}
+    66.66%{background-image: url(Marketing/Fond\ page\ video\ marketing/Fond1.jpg);}
+    92.33%{background-image: url(Marketing/Fond\ page\ video\ marketing/Fond1.jpg);}
+    100%{background-image: url(Marketing/Fond\ page\ video\ marketing/pastel\ table\ 1.jpg);}
+}
+
+
+
+
