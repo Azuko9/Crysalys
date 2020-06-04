@@ -384,10 +384,30 @@ header{
     color:rgba(255, 255, 255, 0.8);
     
 }
+#sousmenu1{
+    padding: 8px 0;
+       background:rgba(19, 19, 19, 0.6);
+}
+#sousmenu2{
+    padding: 8px 0;
+       background:rgba(19, 19, 19, 0.6);
+}
+#sousmenu3{
+    padding: 8px 0;
+       background:rgba(19, 19, 19, 0.6);
+}
+#sousmenu4{
+    padding: 8px 0;
+       background:rgba(19, 19, 19, 0.6);
+}
+#sousmenu5{
+    padding: 8px 0;
+       background:rgba(19, 19, 19, 0.6);
+}
+
 .sousmenu{
     height:20px;
-	padding:2px 0;
-	background:rgba(19, 19, 19, 0.6);
+	padding:8px 0;
     color:rgba(255, 255, 255, 0.8);
     
 }

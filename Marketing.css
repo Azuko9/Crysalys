@@ -123,8 +123,108 @@
 }
 
 
+
+/* skogul*/
+#section_skogul{
+   
+    background-image: url(Marketing/Skogul/skogul-imagette.jpg);
+}
+#section_skogul:hover{
+    background-image: url(Marketing/Skogul/Skogul-boucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+#skogul:before,
+#skogul:after{
+    animation: skogul 20s ease-in infinite ;
+}
+
+#skogul:after
+{
+  animation: skogul 20s ease-in 2s infinite ; 
+}
+
+@keyframes skogul{
+    0%{background-image: url(Marketing/Skogul/skogul-fond1.jpg);}
+    25%{background-image: url(Marketing/Skogul/skogul-fond1.jpg);}
+    33.33%{background-image: url(Marketing/Skogul/skogul-fond2.jpg);}
+    58.33%{background-image: url(Marketing/Skogul/skogul-fond2.jpg);}
+    66.66%{background-image: url(Marketing/Skogul/skogul-fond3.jpg);}
+    92.33%{background-image: url(Marketing/Skogul/skogul-fond3.jpg);}
+    100%{background-image: url(Marketing/Skogul/skogul-fond1.jpg);}
+}
+
+
+
+/* twincup*/
+#section_twincup{
+   
+    background-image: url(Marketing/Twin\ Cup\ 2013/twin-cup-imagette.jpg);
+}
+#section_twincup:hover{
+    background-image: url(Marketing/Twin\ Cup\ 2013/TWIN-CUP-boucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+#twincup:before,
+#twincup:after{
+    animation: twincup 20s ease-in infinite ;
+}
+
+#twincup:after
+{
+  animation: twincup 20s ease-in 2s infinite ; 
+}
+
+@keyframes twincup{
+    0%{background-image: url(Marketing/Twin\ Cup\ 2013/twin-cup-fond1.jpg);}
+    25%{background-image: url(Marketing/Twin\ Cup\ 2013/twin-cup-fond1.jpg);}
+    33.33%{background-image: url(Marketing/Twin\ Cup\ 2013/twin-cup-fond2.jpg);}
+    58.33%{background-image: url(Marketing/Twin\ Cup\ 2013/twin-cup-fond2.jpg);}
+    66.66%{background-image: url(Marketing/Twin\ Cup\ 2013/twin-cup-fond3.jpg);}
+    92.33%{background-image: url(Marketing/Twin\ Cup\ 2013/twin-cup-fond3.jpg);}
+    100%{background-image: url(Marketing/Twin\ Cup\ 2013/twin-cup-fond1.jpg);}
+}
+
+
+/* xscase*/
+#section_xscase{
+   
+    background-image: url(Marketing/XScase/XScase-imagette.jpg);
+}
+#section_xscase:hover{
+    background-image: url(Marketing/XScase/XScase-boucle.gif);
+    transition-delay: 0.5s ;
+    
+}
+
+#xscase:before,
+#xscase:after{
+    animation: xscase 20s ease-in infinite ;
+}
+
+#xscase:after
+{
+  animation: xscase 20s ease-in 2s infinite ; 
+}
+
+@keyframes xscase{
+    0%{background-image: url(Marketing/XScase/XScase-fond1.jpg);}
+    25%{background-image: url(Marketing/XScase/XScase-fond1.jpg);}
+    33.33%{background-image: url(Marketing/XScase/XScase-fond2.jpg);}
+    58.33%{background-image: url(Marketing/XScase/XScase-fond2.jpg);}
+    66.66%{background-image: url(Marketing/XScase/XScase-fond3.jpg);}
+    92.33%{background-image: url(Marketing/XScase/XScase-fond3.jpg);}
+    100%{background-image: url(Marketing/XScase/XScase-fond1.jpg);}
+}
+
+
+
+
 #bodyMarketingVoirplus:before,
-#bodyClipVoirplus:after{
+#bodyMarketingVoirplus:after{
     animation: clipfond 20s ease-in infinite ;
 }
 
