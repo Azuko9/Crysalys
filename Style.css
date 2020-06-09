@@ -256,10 +256,10 @@
     
     #section_3{
        
-        background-image: url(Pastel\ creatif/pastelcomimagette.jpg);
+        background-image: url(Marketing/Pastel\ creatif/pastel-imagette.jpg);
     }
     #section_3:hover{
-        background-image: url(Pastel\ creatif/pastel-creatif-boucle.gif);
+        background-image: url(Marketing/Pastel\ creatif/pastel-creatif-boucle.gif);
         transition-delay: 0.5s ;
         
     }
