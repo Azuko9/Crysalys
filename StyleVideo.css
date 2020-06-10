@@ -123,17 +123,16 @@ body:after
 #bodyClipVoirplus{
     height: 100vh;
     display: flex;
-
 }
 
 #bodyMarketingVoirplus{
     height: 100vh;
     display: flex;
-
-
-
 }
-
+#courmetragevoirplus{
+    height: 100vh;
+    display: flex;
+}
 
 
 #menuespace{
