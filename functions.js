@@ -20,10 +20,11 @@ function afficheMenu(obj){
 		//alert(sousMenu.style.display);
 		if(sousMenu.style.display == "block"){
 			sousMenu.style.display = "none";
+			
 		}
 		else{
 			sousMenu.style.display = "block";
-	
+			
 		}
 	}
 	
