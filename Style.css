@@ -474,7 +474,10 @@ p{
         opacity: 0;
     }
 
-    50% {
+    33% {
+        opacity: 1;
+    }
+    66% {
         opacity: 1;
     }
 
@@ -485,7 +488,7 @@ p{
 
 #workProgress{
     animation: colorwork  2s ease-in infinite;
-    
+    font-size: 1.5em;
 }
 
 #conteneur_Footeur{
