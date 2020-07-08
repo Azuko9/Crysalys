@@ -487,7 +487,7 @@ p{
 }
 
 #workProgress{
-    animation: colorwork  2s ease-in infinite;
+    animation: colorwork  4s ease-in infinite;
     font-size: 1.5em;
 }
 
