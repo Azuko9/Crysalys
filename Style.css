@@ -367,7 +367,8 @@ header{
     
 }
  #mariage{
-     background-image: url(mariage.png);
+     background: rgba(19, 19, 19, 0.6) url(mariage.png) no-repeat;
+     background-position:center center;
     height: 43px;
     padding: 0;
  }
