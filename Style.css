@@ -366,7 +366,11 @@ header{
     text-align: center;
     
 }
-
+ #mariage{
+     background-image: url(mariage.png);
+    height: 43px;
+    padding: 0;
+ }
 
 
 #logoC {
