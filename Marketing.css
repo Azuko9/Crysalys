@@ -254,14 +254,14 @@
    
     background-image: url(Marketing/Pagaie/imagette.jpg);
 }
-#section_xscase:hover{
+#section_pagaie:hover{
     background-image: url(Marketing/Pagaie/Pagaie-gif.gif);
     transition-delay: 0.5s ;
     
 }
 
 #Pagaie:before,
-#xscase:after{
+#Pagaie:after{
     animation: pagaie 20s ease-in infinite ;
 }
 
