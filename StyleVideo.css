@@ -85,7 +85,7 @@ right: 0;
     height: 38px;
     width: 100px;
     margin-top: 4px;
-    background-image: url(Logo/logoafficheBlanc.png);
+    background: url(Logo/logoafficheBlanc.png) no-repeat;
     background-size:cover;
     opacity: 0.7;
     transition: 0.7s;
