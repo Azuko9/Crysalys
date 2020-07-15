@@ -290,7 +290,7 @@
 }
 
 #isr:before,
-#Pagaie:after{
+#isr:after{
     animation: isr 20s ease-in infinite ;
 }
 
