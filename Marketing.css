@@ -282,11 +282,10 @@
 
 /* ISR*/
 #section_isr{
-   
-    background-image: url(Marketing/ISR/Fond1.jpg);
+    background-image: url(Marketing/ISR/fond1.jpg);
 }
 #section_isr:hover{
-    background-image: url(Marketing/ISR/ECOFI-ISR.gif);
+    background-image: url(Marketing/ISR/ecofiisr.gif);
     transition-delay: 0.5s ;
 }
 
