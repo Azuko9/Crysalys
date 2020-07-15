@@ -312,16 +312,11 @@
 }
 
 #isrvideo{
-    background: url(Marketing/ISR/fond1.jpg);
+    background: url(Marketing/ISR/lecteurvideo.jpg);
     background-size: cover;
-    text-align: center;
-  vertical-align: middle;
+
 }
-#isrvideo:hover{
-    background: url(Marketing/ISR/ECOFI-ISR.gif) no-repeat;
-    background-size: cover;
-    transition-delay: 0.5s ;
-}
+
 
 #bodyMarketingVoirplus:before,
 #bodyMarketingVoirplus:after{
