@@ -53,6 +53,10 @@
     .sousmenu{
         width: 400px;
     }
+#logofacebook{
+    display: none;
+}
+
     #logoC{
         width: 360px;
     }
