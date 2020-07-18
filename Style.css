@@ -455,7 +455,7 @@ header{
 
 
 @keyframes fondu{
-    0%{background-image: url(background/index/arthur\ site.jpg);}
+    0%{background-image: url(background/index/arthur\ site.jpg) ;}
     25%{background-image: url(background/index/arthur\ site.jpg);}
     33.33%{background-image: url(background/index/pastel.jpg);}
     58.33%{background-image: url(background/index/pastel.jpg);}
