@@ -124,7 +124,7 @@ right: 0;
 
 .profiln:hover{
     background-color: rgba(19, 19, 19, 0.6);
-    
+    color: rgba(255, 255, 255, 1);
 }
 .textprofil{
     margin: 4px;
