@@ -337,6 +337,27 @@
     100%{background-image: url(Marketing/Fond\ page\ video\ marketing/pastel\ table\ 1.jpg);}
 }
 
+#quisommenous{
+    min-height: 100vh;
+    display: flex;
+}
 
+#quisommenous:before,
+#quisommenous:after{
+    animation: quisommenous 20s ease-in infinite ;
+}
 
+#quisommenous:after
+{
+  animation: quisommenous 20s ease-in 2s infinite ; 
+}
 
+@keyframes quisommenous{
+    0%{background-image: url(quisommenous/titre_slide_1.jpg);}
+    25%{background-image: url(quisommenous/titre_slide_1.jpg);}
+    33.33%{background-image: url(quisommenous/titre_slide_2.jpg);}
+    58.33%{background-image: url(quisommenous/titre_slide_2.jpg);}
+    66.66%{background-image: url(quisommenous/titre_Slide_3.jpg);}
+    92.33%{background-image: url(quisommenous/titre_Slide_3.jpg);}
+    100%{background-image: url(quisommenous/titre_slide_1.jpg);}
+}
