@@ -47,8 +47,7 @@ body{
         width: 36vw;
     }
 .element_h{
-        width:32.5%;
-        height:15vw;
+        height:20vw;
     }
 
     .elementprofil{
@@ -85,6 +84,11 @@ right: 0;
     .elementprofil{
         width:32vw;
         min-height: calc(32vw/0.666);
+    }
+
+    .element_h{
+        width:32.5%;
+        height:15vw;
     }
     
 }
@@ -224,7 +228,8 @@ main{
     height: auto;
 background-color: rgba(19, 19, 19, 0.6);
     margin: 0;
-    text-align: right;
+    text-align: center;
+    color: white;
     font-family: 'Michroma', sans-serif;
     
 
@@ -359,6 +364,7 @@ article{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .element_h{
     position: relative;
@@ -385,7 +391,11 @@ article{
 
 .iconGif:hover .videoTitre{
     
-    max-height: 60%;
+    max-height: 100%;
+}
+.textif2{
+    font-size: 0.6em;
+    text-align: left;
 }
 .videoTitre{
     position: absolute;
@@ -414,7 +424,9 @@ h1{
     font-size: 2em;
     
 }
-
+h4{
+    margin: 3px 0;
+}
 
 
 .imgprofil{
