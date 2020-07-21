@@ -9,7 +9,7 @@ body{
     }
     .elementprofil{
         width:99vw;
-        height: calc(99vw/0.666);
+        min-height: calc(99vw/0.666);
     }
 }
 
@@ -17,6 +17,10 @@ body{
     .element_h{
         width:48%;
         height:30vw;
+    }
+    .elementprofil{
+        width:80vw;
+        min-height: calc(80vw/0.666);
     }
     
 }
@@ -46,6 +50,11 @@ body{
         width:32.5%;
         height:15vw;
     }
+
+    .elementprofil{
+        width:60vw;
+        min-height: calc(60vw/0.666);
+    }
     #headvoirplus{
         width: 68vw;
     }
@@ -71,10 +80,11 @@ right: 0;
     min-height: 100vh;
     background:rgba(19, 19, 19, 0.6);
 }
+
 @media screen and (min-width:1281px){
     .elementprofil{
         width:32vw;
-        height: calc(32vw/0.666);
+        min-height: calc(32vw/0.666);
     }
     
 }
@@ -93,8 +103,7 @@ right: 0;
 }
 
 .elementprofil{
-    font-size: 1em;
-    min-height:940px;
+    font-size: 0.8em;
     position: relative;
     margin: 5px;
     padding: 10px;
@@ -115,6 +124,7 @@ right: 0;
     flex-direction: column;
     justify-content: space-between;
     color: rgba(255, 255, 255, 0);
+    
 }
 
 .elementprofil:hover{
@@ -129,6 +139,7 @@ right: 0;
 .textprofil{
     margin: 4px;
     text-align: start;
+    
 }
 .tarif{
     margin: 8px;
@@ -345,7 +356,6 @@ article{
 
 #blocanim{
     display: flex;
-margin-right: 5PX;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
