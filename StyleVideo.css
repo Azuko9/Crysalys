@@ -8,8 +8,8 @@ body{
         height:50vw;
     }
     .elementprofil{
-        width:99%;
-        color: white;
+        width:99vw;
+        height: calc(99vw/0.666);
     }
 }
 
@@ -73,8 +73,8 @@ right: 0;
 }
 @media screen and (min-width:1281px){
     .elementprofil{
-        width:42%;
-        
+        width:32vw;
+        height: calc(32vw/0.666);
     }
     
 }
