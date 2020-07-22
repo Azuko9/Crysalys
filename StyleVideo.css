@@ -8,8 +8,8 @@ body{
         height:50vw;
     }
     .elementprofil{
-        width:99vw;
-        min-height: calc(99vw/0.666);
+        width:97vw;
+        min-height: calc(97vw/0.666);
     }
     #blocanim{
         margin-right: 5px;
@@ -112,8 +112,8 @@ right: 0;
 .elementprofil{
     font-size: 0.8em;
     position: relative;
-    margin: 5px;
-    padding: 10px;
+    margin-left: 5px;
+    
     z-index: 1;
     text-align:center;
     -webkit-background-size: cover;

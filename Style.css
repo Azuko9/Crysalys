@@ -271,20 +271,20 @@
     }
     #section_4{
         
-        background-image: url(tour.jpg);
+        background-image: url(Marketing/Decapulse/Decapulse-imagette.jpg);
     
     }
 
     #section_4:hover{
-        background-image: url(Star-Wars-boucle.gif);
+        background-image: url(Marketing/Decapulse/Decapulse-boucle.gif);
         transition-delay: 0.5s ;
     }
     #section_5{
        
-        background-image: url(Decapulse/Decapulse-imagette.jpg);
+        background-image: url(Marketing/OliviaEvent/imagette.jpg);
     }
     #section_5:hover{
-        background-image: url(Decapulse/Decapulse-boucle.gif);
+        background-image: url(Marketing/OliviaEvent/Cloe_Alexandre-gif.gif);
         transition-delay: 0.5s ;
     }
     
