@@ -11,6 +11,9 @@ body{
         width:99vw;
         min-height: calc(99vw/0.666);
     }
+    #blocanim{
+        margin-right: 5px;
+    }
 }
 
 @media screen and (min-width:768px){
