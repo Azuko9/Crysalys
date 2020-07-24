@@ -124,6 +124,20 @@
 
 
 /* SW*/
+
+.gifSW{
+    width: 98%;
+    margin: 0 1%;
+}
+
+.gifSW2{
+    width: 50%;
+
+}
+
+#swcenter{
+    text-align: center;
+}
 #section_SW{
    
     background-image: url(Court-metrages/StarWars/Star-Wars-imagette.jpg);
