@@ -382,11 +382,11 @@
 }
 
 @keyframes quisommenous{
-    0%{background-image: url(quisommenous/titre_slide_1.jpg);}
-    25%{background-image: url(quisommenous/titre_slide_1.jpg);}
-    33.33%{background-image: url(quisommenous/titre_slide_2.jpg);}
-    58.33%{background-image: url(quisommenous/titre_slide_2.jpg);}
-    66.66%{background-image: url(quisommenous/titre_Slide_3.jpg);}
-    92.33%{background-image: url(quisommenous/titre_Slide_3.jpg);}
-    100%{background-image: url(quisommenous/titre_slide_1.jpg);}
+    0%{background-image: url(Equipement/fondequipement/IMG_3562.JPG);}
+    25%{background-image: url(Equipement/fondequipement/IMG_3562.JPG);}
+    33.33%{background-image: url(Equipement/fondequipement/IMG_3753.JPG);}
+    58.33%{background-image: url(Equipement/fondequipement/IMG_3753.JPG);}
+    66.66%{background-image: url(Equipement/fondequipement/fond\ vert.jpg);}
+    92.33%{background-image: url(Equipement/fondequipement/fond\ vert.jpg);}
+    100%{background-image: url(Equipement/fondequipement/IMG_3562.JPG);}
 }
