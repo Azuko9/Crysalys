@@ -8,10 +8,7 @@ body{
         height:50vw;
     }
 
-    .element_h2{
-        width:99.9%;
-        height:50vw;
-    }
+
     .elementprofil{
         width:97vw;
         min-height: calc(97vw/0.666);
@@ -26,14 +23,8 @@ body{
         width:48%;
         height:30vw;
     }
-    .element_h:hover{
-        width: 72%;
-        height: 30vw;
-    }
-    .element_h2{
-        width:48%;
-        height:30vw;
-    }
+
+
    
     .elementprofil{
         width:80vw;
@@ -102,6 +93,12 @@ right: 0;
     background:rgba(19, 19, 19, 0.6);
 }
 
+.euro{
+    font-family: 'Noto Sans', sans-serif;
+
+
+}
+
 @media screen and (min-width:1281px){
     .elementprofil{
         width:32vw;
@@ -113,10 +110,7 @@ right: 0;
         height:15vw;
     }
 
-    .element_h2{
-        width:32.5%;
-        height:15vw;
-    }
+
 
     
 }
@@ -138,7 +132,7 @@ right: 0;
     font-size: 0.8em;
     position: relative;
     margin-left: 5px;
-    
+    margin-top: 5px;
     z-index: 1;
     text-align:center;
     -webkit-background-size: cover;
@@ -185,12 +179,14 @@ right: 0;
 }
 
 #joeprofil{
-    background-image: url(Joeprofil.jpg);
+    background-image: url(quisommenous/Profil\ Jo.jpg);
 }
 #jimprofil{
-    background-image: url(Equipement/fondequipement/IMG_3749.JPG);
+    background-image: url(quisommenous/IMG_3749.JPG);
 }
-
+#amiprofil{
+    background-image: url(quisommenous/IMG_7253.jpg);
+}
 
 #logomin{
 
@@ -264,10 +260,18 @@ background-color: rgba(19, 19, 19, 0.6);
     text-align: center;
     color: white;
     font-family: 'Michroma', sans-serif;
-    
-
-
 }
+
+#navtext{
+    flex: 1;
+    height: auto;
+background-color: rgba(19, 19, 19, 0.8);
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+}
+
 #naviconehead{
 display: flex;
 justify-content: space-between;
@@ -414,21 +418,7 @@ article{
     
 }
 
-.element_h2{
-    position: relative;
-    margin: 5px 0 0 5px;
-    z-index: 1;
-    opacity: 1;
-    background-color: rgba(58, 110, 110, 0.3);
-    text-align:center;
-    color: white;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    transition: 1s 0.5s;
-    
-}
+
 .iconGif{
     height: 100%;
     background-position: center;

@@ -91,3 +91,78 @@
     background-image: url(materiel/Fond-vert-flex.png);
 }
 
+#quisommenous{
+    min-height: 100vh;
+    display: flex;
+}
+
+#quisommenous:before,
+#quisommenous:after{
+    animation: quisommenous 20s ease-in infinite ;
+}
+
+#quisommenous:after
+{
+  animation: quisommenous 20s ease-in 2s infinite ; 
+}
+
+@keyframes quisommenous{
+    0%{background-image: url(Equipement/fondnous/DSC02367.jpg);}
+    25%{background-image: url(Equipement/fondnous/DSC02367.jpg);}
+    33.33%{background-image: url(Equipement/fondnous/IMG_3592.jpg);}
+    58.33%{background-image: url(Equipement/fondnous/IMG_3592.jpg);}
+    66.66%{background-image: url(Equipement/fondnous/teamSW.jpg);}
+    92.33%{background-image: url(Equipement/fondnous/teamSW.jpg);}
+    100%{background-image: url(Equipement/fondnous/DSC02367.jpg);}
+}
+
+#matos{
+    min-height: 100vh;
+    display: flex;
+}
+
+#matos:before,
+#matos:after{
+    animation: matos 20s ease-in infinite ;
+}
+
+#matos:after
+{
+  animation: matos 20s ease-in 2s infinite ; 
+}
+
+@keyframes matos{
+    0%{background-image: url(Equipement/fondmatos/equip1.jpg);}
+    25%{background-image: url(Equipement/fondmatos/equip1.jpg);}
+    33.33%{background-image: url(Equipement/fondmatos/equip3.jpg);}
+    58.33%{background-image: url(Equipement/fondmatos/equip3.jpg);}
+    66.66%{background-image: url(Equipement/fondmatos/titre_slide_1.jpg);}
+    92.33%{background-image: url(Equipement/fondmatos/titre_slide_1.jpg);}
+    100%{background-image: url(EEquipement/fondmatos/equip1.jpg);}
+}
+
+
+#fondtarif{
+    min-height: 100vh;
+    display: flex;
+}
+
+#fondtarif:before,
+#fondtarif:after{
+    animation: fondtarif 20s ease-in infinite ;
+}
+
+#fondtarif:after
+{
+  animation: fondtarif 20s ease-in 2s infinite ; 
+}
+
+@keyframes fondtarif{
+    0%{background-image: url(Equipement/fondmatos/equip1.jpg);}
+    25%{background-image: url(Equipement/fondmatos/equip1.jpg);}
+    33.33%{background-image: url(Equipement/fondmatos/equip3.jpg);}
+    58.33%{background-image: url(Equipement/fondmatos/equip3.jpg);}
+    66.66%{background-image: url(Equipement/fondmatos/titre_slide_1.jpg);}
+    92.33%{background-image: url(Equipement/fondmatos/titre_slide_1.jpg);}
+    100%{background-image: url(EEquipement/fondmatos/equip1.jpg);}
+}

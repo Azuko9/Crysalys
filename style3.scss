@@ -28,7 +28,7 @@ section{
     height: 0;
     height: 100vh;
     width: 50%;
-    background: url(mariage.jpg) no-repeat;
+    background: url(mariagehome.jpg) no-repeat;
     background-size: cover;
     filter: grayscale(1);
     animation: slidein 10s ease-in-out;
@@ -124,9 +124,6 @@ img{
 
  #productbutton:hover{
    opacity: 1;
-   
-   
-   
  }
 
 a{
@@ -141,6 +138,9 @@ a{
      font-size: 2.5em;
      opacity: 0.7;
      transition: 0.5s;
+     &:hover{
+       opacity: 1;
+     }
   
  }
 
