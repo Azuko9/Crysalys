@@ -262,10 +262,10 @@
     
     #section_3{
        
-        background-image: url(Marketing/Pastel\ creatif/pastel-imagette.jpg);
+        background-image: url(Marketing/Pagaie/imagette.jpg);
     }
     #section_3:hover{
-        background-image: url(Marketing/Pastel\ creatif/pastel-creatif-boucle.gif);
+        background-image: url(Marketing/Pagaie/Pagaie-gif.gif);
         transition-delay: 0.5s ;
         
     }
@@ -381,9 +381,19 @@ header{
 
 
 #logoC {
-    
-    transition: 0.7s;
-    margin: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    height: 167px;
+    background-image: url(Logo/logoafficheBlancSite1.png);
+   transition: 0.7s;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden; 
+}
+
+#logoC:hover{
+    background-image: url(Logo/logositegif.gif)
 }
 
 #menu{
