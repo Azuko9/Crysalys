@@ -166,3 +166,61 @@
     92.33%{background-image: url(Equipement/fondmatos/titre_slide_1.jpg);}
     100%{background-image: url(EEquipement/fondmatos/equip1.jpg);}
 }
+
+@media screen and (min-width:767px){
+     .overlay:target {
+    visibility: visible;
+    opacity: 1;
+    
+  }
+}
+
+.overlay {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+    
+  }
+
+  
+  .popup {
+    width: 70vw;
+    padding-right: 15px;
+    min-height: calc(70vw*0.666);
+    transition: all 0.5s ease-in-out;
+    text-align: right;
+    background-color: white;
+  }
+  
+  
+  .popup .close {
+    text-align: end;
+    transition: all 200ms;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .popup .close:hover {
+    color:rgba(0, 0, 0, 0.9);
+  }
+
+  .textpopup{
+      text-align: center;
+      margin-left: 15px;
+      color: rgba(0, 0, 0, 0.9);
+      font-size: 1.5em;
+  }
+
+  .imgpopup{
+      width: 80%;
+  }
