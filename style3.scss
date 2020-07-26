@@ -16,12 +16,14 @@ align-items: center;
   #mariage{
     height: 50vh;
     width: 100vw;
+    background: url(mariageportrait.jpg) no-repeat;
     animation: slideinportrait 10s ease-in-out;
     justify-content: center;
   }
   #product{
     justify-content: center;
     align-items: flex-end;
+    background: url(jym_joeportrait.jpg) no-repeat;
   }
   #productbutton{
     text-align: center;
@@ -31,7 +33,7 @@ align-items: center;
     background-color: rgba(61, 61, 61, 0.6);
   }
   nav{
-    margin: 7vh 0;
+    margin: 10vh 0;
   }
 }
 
@@ -39,19 +41,23 @@ align-items: center;
   #mariage{
   height: 100vh;
   width: 50vw;
+  background: url(mariagehome.jpg) no-repeat;
   animation: slideinlandscape 10s ease-in-out;
   align-items: center;
   }
   nav{
   width: 100%;
   height: 260px;
+  background-color: rgba(61, 61, 61, 0.6);
   }
   #product{
     justify-content: right;
     align-items: center;
+    background: url(fond-cote-production.jpg) no-repeat;
   }
   #productnav{
   width: 100%;
+  background-color: rgba(61, 61, 61, 0.6);
   }
 
   #productbutton{
@@ -72,7 +78,7 @@ section{
     z-index: 1;
     position: absolute;
     left: 0;
-    background: url(mariagehome.jpg) no-repeat;
+
     background-size: cover;
     filter: grayscale(1);
     display: flex;
@@ -93,7 +99,7 @@ section{
   height: 0;
   height: 100vh;
   width: 100vw;
-  background: url(fond-cote-production.jpg) no-repeat;
+
   background-size: cover;
   filter: grayscale(1);
   animation: slidebody 10s ease-in-out;
@@ -130,13 +136,11 @@ section{
 
 nav{
   position: absolute;
-  background-color: rgba(61, 61, 61, 0.6);
   display: flex;
   align-items: center;
   
 }
 #productnav{
-  background-color: rgba(61, 61, 61, 0.6);
   position: absolute;
   justify-content: flex-end;
   display: flex;
