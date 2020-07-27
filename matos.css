@@ -167,6 +167,56 @@
     100%{background-image: url(EEquipement/fondmatos/equip1.jpg);}
 }
 
+
+
+#fondnous{
+    min-height: 100vh;
+    display: flex;
+}
+
+#fondnous:before,
+#fondnous:after{
+    animation: fondnous 20s ease-in infinite ;
+}
+
+#fondnous:after
+{
+  animation: fondnous 20s ease-in 2s infinite ; 
+}
+
+@keyframes fondnous{
+    0%{background-image: url(Equipement/fondnous/DSC02367.jpg);}
+    25%{background-image: url(Equipement/fondnous/DSC02367.jpg);}
+    33.33%{background-image: url(Equipement/fondnous/IMG_3592.jpg);}
+    58.33%{background-image: url(Equipement/fondnous/IMG_3592.jpg);}
+    66.66%{background-image: url(Equipement/fondnous/teamSW.jpg);}
+    92.33%{background-image: url(Equipement/fondnous/teamSW.jpg);}
+    100%{background-image: url(Equipement/fondnous/DSC02367.jpg);}
+}
+#fondmention{
+    min-height: 100vh;
+    display: flex;
+}
+
+#fondmention:before,
+#fondmention:after{
+    animation: fondmention 20s ease-in infinite ;
+}
+
+#fondmention:after
+{
+  animation: fondmention 20s ease-in 2s infinite ; 
+}
+
+@keyframes fondmention{
+    0%{background-image: url(Equipement/fondmention/equip2.jpg);}
+    25%{background-image: url(Equipement/fondmention/equip2.jpg);}
+    33.33%{background-image: url(Equipement/fondmention/IMG_4483.jpg);}
+    58.33%{background-image: url(Equipement/fondmention/IMG_4483.jpg);}
+    66.66%{background-image: url(Equipement/fondmention/titre_Slide_3.jpg);}
+    92.33%{background-image: url(Equipement/fondmention/titre_Slide_3.jpg);}
+    100%{background-image: url(Equipement/fondmention/equip2.jpg);}
+}
 @media screen and (min-width:767px){
      .overlay:target {
     visibility: visible;

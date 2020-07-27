@@ -171,7 +171,7 @@ right: 0;
 }
 .tarif{
     margin: 8px;
-    max-width: 600px;
+    max-width: 900px;
     text-align: left;
     line-height: 2em;
     letter-spacing: 0.2em;
@@ -265,7 +265,7 @@ background-color: rgba(19, 19, 19, 0.6);
 #navtext{
     flex: 1;
     height: auto;
-background-color: rgba(19, 19, 19, 0.8);
+background-color: rgba(19, 19, 19, 0.6);
     margin: 0;
     text-align: center;
     color: white;
