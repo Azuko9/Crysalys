@@ -476,3 +476,21 @@ h4{
 .imgprofil{
     width: 300px;
 }
+
+.clap{
+    display: table-cell;
+    width: 94px;
+    height: 94px;
+    background-image: url(Court-metrages/Gorilles/clapfixe.png);
+    -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   overflow: hidden; 
+    text-align: center;
+    vertical-align: middle;
+    transition: 0.5s;
+}
+
+.clap:hover{
+    background-image: url(Court-metrages/Gorilles/clap.gif);
+}
