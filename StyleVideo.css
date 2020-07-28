@@ -76,6 +76,9 @@ body{
     }
 
     article{
+        text-align: center;
+    }
+    p{
         text-align: left;
     }
 }
@@ -451,7 +454,7 @@ article{
     transition: 1s;
 }
 
-a{
+a{text-decoration:none; 
     color: rgba(255, 255, 255, 0.7);
     transition: 0.7s;
 }
@@ -461,6 +464,7 @@ a:hover{
 
 p{
     margin: 3px 0 6px 0;
+
     
 }
 
@@ -479,8 +483,9 @@ h4{
 
 .clap{
     display: table-cell;
-    width: 94px;
-    height: 94px;
+    font-size: 0.65em;
+    width: 192px;
+    height: 108px;
     background-image: url(Court-metrages/Gorilles/clapfixe.png);
     -webkit-background-size: cover;
    background-size: cover;
@@ -489,8 +494,13 @@ h4{
     text-align: center;
     vertical-align: middle;
     transition: 0.5s;
+    
 }
 
 .clap:hover{
     background-image: url(Court-metrages/Gorilles/clap.gif);
+    color: black;
+    font-size: 1.6em;
+    font-weight: 900;
+    
 }
