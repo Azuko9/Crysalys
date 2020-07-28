@@ -238,9 +238,9 @@
     display: flex;
 justify-content: center;
 align-items: center;
+}
 
-    
-  }
+
 
   
   .popup {
@@ -264,23 +264,7 @@ align-items: center;
   .popup .close:hover {
     color:rgba(0, 0, 0, 0.9);
   }
-    .popupyoutube {
-    
-    padding: 5px;
-    transition: all 0.5s ease-in-out;
-    text-align: right;
-    background-color: rgba(0, 0, 0, 1);
-  }
-  .popupyoutube .close {
-    text-align: end;
-    transition: all 200ms;
-    font-size: 40px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.4);
-  }
-  .popupyoutube .close:hover {
-    color:rgba(255, 255, 255, 0.9);
-  }
+
   .textpopup{
       text-align: center;
       margin-left: 15px;
