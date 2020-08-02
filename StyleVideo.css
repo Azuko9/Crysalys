@@ -156,7 +156,7 @@ right: 0;
     
 }
 
-.elementprofil:hover, .elementprofil:active, .elementprofil:focus{
+ .elementprofil:active, .elementprofil:focus{
     filter: grayscale(0.9);
     
 }
