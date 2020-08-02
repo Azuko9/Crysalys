@@ -156,8 +156,8 @@ right: 0;
     
 }
 
- .elementprofil:active, .elementprofil:focus{
-    filter: grayscale(0.9);
+  .elementprofil:hover,.elementprofil:active, .elementprofil:focus{
+    filter: grayscale(1);
     
 }
 
@@ -187,8 +187,8 @@ right: 0;
 #jimprofil{
     background-image: url(quisommenous/IMG_3749.JPG);
 }
-#amiprofil{
-    background-image: url(quisommenous/IMG_7253.jpg);
+#louisprofil{
+    background-image: url(quisommenous/Louis.JPG);
 }
 
 #logomin{
