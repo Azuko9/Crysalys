@@ -156,10 +156,7 @@ right: 0;
     
 }
 
-  .elementprofil:hover,.elementprofil:active, .elementprofil:focus{
-    filter: grayscale(1);
-    
-}
+
 
 .profiln:hover, .profiln:active, .profiln:focus{
     background-color: rgba(19, 19, 19, 0.6);
