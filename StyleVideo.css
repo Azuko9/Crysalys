@@ -161,12 +161,12 @@ right: 0;
     
 }
 
-.profiln:hover{
+.profiln:hover, .profiln:active, .profiln:focus{
     background-color: rgba(19, 19, 19, 0.6);
+    display: ;
     color: rgba(255, 255, 255, 1);
 }
 .textprofil{
-    z-index: 2;
     margin: 4px;
     text-align: left;
     line-height: 2em;
