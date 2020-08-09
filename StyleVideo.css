@@ -152,6 +152,7 @@ right: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: rgba(255, 255, 255, 1);
     opacity: 0;
     
 }
@@ -160,8 +161,6 @@ right: 0;
 
 .profiln:hover, .profiln:active, .profiln:focus{
     background-color: rgba(19, 19, 19, 0.6);
-    
-    color: rgba(255, 255, 255, 1);
     opacity: 1;
 }
 .textprofil{
